@@ -1,0 +1,6 @@
+framework module sspadkit {
+  umbrella header "sspadkit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -4,24 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>sspadkit.xcscheme_^#shared#^_</key>
+		<key>Pods-example.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>sspadkit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>8D3D5BB3260E57EA004BF100</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8D3D5C13260E65CD004BF100</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

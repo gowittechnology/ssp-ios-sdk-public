@@ -1,0 +1,16 @@
+PODS:
+  - sspadkit (1.0.0)
+
+DEPENDENCIES:
+  - sspadkit (from `../../SDK/sspadkit/`)
+
+EXTERNAL SOURCES:
+  sspadkit:
+    :path: "../../SDK/sspadkit/"
+
+SPEC CHECKSUMS:
+  sspadkit: de9f50e3a984772effd5f3048d24abb1263d00b5
+
+PODFILE CHECKSUM: da389c739d16db567fea021bab81a9c84f36db2f
+
+COCOAPODS: 1.10.1
