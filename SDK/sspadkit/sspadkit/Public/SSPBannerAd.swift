@@ -43,8 +43,14 @@ public class SSPBannerAd : NSObject, WKNavigationDelegate {
             }
             
             let frame = CGRect(x: 0.0, y: 0.0, width: view.frame.width, height: view.frame.height)
-            
-            if ((frame.width < CGFloat(self.config.adUnitSize?.adUnitWidth ?? 0)) || (frame.height < CGFloat(self.config.adUnitSize?.adUnitHeight ?? 0))) {
+            let scaledWidth = frame.width * UIScreen.main.scale
+            let scaledHeight = frame.height * UIScreen.main.scale
+            if ((scaledWidth < CGFloat(self.config.adUnitSize?.adUnitWidth ?? 0)) || (scaledHeight < CGFloat(self.config.adUnitSize?.adUnitHeight ?? 0))) {
+                
+                debugPrint("frame.width: \(frame.width) frame.height: \(frame.height)")
+                debugPrint("scaled.width: \(scaledWidth) scaled.height: \(scaledHeight)")
+                debugPrint("addUnit.width: \(self.config.adUnitSize?.adUnitWidth ?? 0) addUnit.height: \(self.config.adUnitSize?.adUnitHeight ?? 0)")
+                
                 self.bannerDelegate.failedToLoadAdd(forBanner: self, reason: SSPResult.addContainerSizeIsNotCorrect)
                 self.instance = nil
                 return

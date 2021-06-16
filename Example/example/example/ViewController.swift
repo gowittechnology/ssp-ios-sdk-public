@@ -38,7 +38,7 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
     
     @IBAction func showBanner2(_ sender: Any) {
         if let manager = adManager {
-            let result = manager.requestBanner(for: SSPBannerSizes.banner, _identifier: 1)
+            let result = manager.requestBanner(for: SSPBannerSizes.largeBanner, _identifier: 1)
             print(result.enumDetails)
         }
         
@@ -64,7 +64,7 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
     }
     
     func failedToLoadAdd(forBanner adItem: SSPBannerAd, reason: SSPResult) {
-        
+        print(reason.enumDetails)
     }
     
     
@@ -76,7 +76,7 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
     }
     
     func failedToLoadAdd(forPopUp adItem: SSPPopUpAd, reason: SSPResult) {
-        
+        print(reason.enumDetails)
     }
     
     func addWillAppear(forPopUp adItem: SSPPopUpAd){
