@@ -18,19 +18,22 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/gowittechnology/ssp-ios-sdk-public"
 
-  spec.license           =  { :type => 'MIT' }
+  spec.license           =  { :type => "MIT", :file => "license" }
 
   spec.author             = { "Dogus Yigit Ozcelik" => "dogusyigitozcelik@gmail.com" }
 
+  
+  spec.ios.deployment_target = '10.0'
+  spec.ios.vendored_frameworks = 'sspadkit.framework'
 
-  spec.source            = { :git => "https://github.com/gowittechnology/ssp-ios-sdk-public.git", :tag => spec.version.to_s }
+  spec.source            = { :http => "https://github.com/gowittechnology/ssp-ios-sdk-public/blob/1.0.0/SDK/sspadkit/sspadkit.zip" }
 
 
   spec.framework      = 'WebKit'
-  spec.swift_version       = '5.0'
-  spec.ios.deployment_target = '10.0'
-  spec.source_files  = "sspadkit/**/*.{swift}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.swift_version       = '5.0'
+  #spec.source_files  = ""
+  #spec.exclude_files = "sspadkit/Private/*.{swift}"
 
+  spec.exclude_files = "Classes/Exclude"
 
 end
