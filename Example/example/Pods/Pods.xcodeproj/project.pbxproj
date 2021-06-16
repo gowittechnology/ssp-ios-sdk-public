@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		008EAE6BBA97A7892FA84527A99D87ED /* Pods-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 366C81F63378C4CCA862A6E36F3D0BCF /* Pods-example-dummy.m */; };
-		0C34BD5303328CA8D000193BA0BA76AC /* sspadkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE25D7D0AE9C44447C5ABBD294015F /* sspadkit-dummy.m */; };
-		1227E92B7F0FF91BDB2F0769B3AF88F2 /* SSPBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BEDDCCA778FE5E6B970D42392BF58 /* SSPBannerAd.swift */; };
-		426634CFB61004ACCC313DC0F8B1C8F1 /* SSPAdKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993DE77D3370F2EB855B3610000137B /* SSPAdKit.swift */; };
+		0BC11603959D80DEA1F9F992D963FD07 /* SSPBannerAdRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1916A776AD85A09D1458E2C8EA936E /* SSPBannerAdRequest+Extensions.swift */; };
+		0C7700DB984E2F1539AB9E8AA443D7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */; };
+		1141FD9B04DE9AA2BD5ACB1DFA82C2D2 /* SSPAdKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C448FF611F9CA5F1D9CCFD2D3400822F /* SSPAdKitConfig.swift */; };
+		30666BD649E2C4DC4463192AF1764622 /* SSPAdKitConfig+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB41216C422AA02A66032EE065DC3DF /* SSPAdKitConfig+Extensions.swift */; };
 		4A3CAA818D8EA85E4A55ACAF32CEB9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */; };
-		9BF25E88403F968CE7AAA0E4F3DEA22F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB655F8A3B9F0C3DB37D349580B2779 /* WebKit.framework */; };
-		F9FCED4AA1DBA4383E9576DA27139105 /* SSPAdKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A35142213319866098E4164BF2569 /* SSPAdKitConfig.swift */; };
+		4E4AC453818A91C35D98A0D8B5F80EFB /* SSPAdKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B9A4AA5736A7F18CC8A41FC8F94BDC /* SSPAdKit.swift */; };
+		6368B09FCCE121DCC30FB11024C0933F /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC9B2A6B2A221F62266EDDCE837D32 /* NetworkHelper.swift */; };
+		7817FA3D11EACB641382A980D22BCCB2 /* sspadkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E2193D87C3D1DD5BB6D605AD2ED68 /* sspadkit-dummy.m */; };
+		7D26EED5E2635313FD0D02A55791E2F4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41E727482733C3B864F00C125D1DD2E /* NetworkService.swift */; };
+		83AF3175089F154BF8F0515A214CC1C7 /* SSPPopUpAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA310AF8233E311B047970FCF181F2 /* SSPPopUpAd.swift */; };
+		BB3E2335DCCB8327377820F401126210 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB655F8A3B9F0C3DB37D349580B2779 /* WebKit.framework */; };
+		BC0F41D324F3495F9742E74EE8B16C03 /* SSPBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A9B3BFAD143A2EFF982E790E560A3 /* SSPBannerAd.swift */; };
+		EFE3D5EB63CF5E82AC024373F9ED9DE5 /* sspadkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D94C34E512CD9F3FA02FE995CBF87C8D /* sspadkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C66B35A0779199D7DBD3C13B47DE53 /* SSPPopUpAdRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F731FF3EF7F98EEF43E50E01F10A07 /* SSPPopUpAdRequest+Extensions.swift */; };
 		FBEABC4C27DF752AAD9DE4B9BE1C3559 /* Pods-example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9B306B206F90F2B9FEFECBB5C3CB65 /* Pods-example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCAD137564E2B5DC3068CB8CDD4C79B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */; };
-		FD96EBC2EE4B9F4604312B06E43F384A /* SSPPopUpAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F33E1EB0337D4778FE18A52D301C35 /* SSPPopUpAd.swift */; };
-		FDE57ADF6EC5B0E0841E167D8DDBF208 /* sspadkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 743A2ADF90951D708AA43C7540E6C03D /* sspadkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DD228602947DEDC1895B0D28DB031F4C /* PBXContainerItemProxy */ = {
+		F120F6EE4A42559E336B52E8AD262EEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -31,31 +36,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05EA33FCF7337816EDA381B84A990064 /* sspadkit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "sspadkit-Info.plist"; sourceTree = "<group>"; };
-		1C5BEDDCCA778FE5E6B970D42392BF58 /* SSPBannerAd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSPBannerAd.swift; path = sspadkit/Public/SSPBannerAd.swift; sourceTree = "<group>"; };
+		107C78B258A3550AE2E2A552C447CCE8 /* sspadkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sspadkit-prefix.pch"; sourceTree = "<group>"; };
 		2BB655F8A3B9F0C3DB37D349580B2779 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		2F953E63C99E3C33059E888CEA88AC4B /* Pods-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-example-acknowledgements.plist"; sourceTree = "<group>"; };
 		32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		366C81F63378C4CCA862A6E36F3D0BCF /* Pods-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-example-dummy.m"; sourceTree = "<group>"; };
 		4ED2EAEC295A5C36F812B9C3CFE0E818 /* Pods-example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-example-Info.plist"; sourceTree = "<group>"; };
-		5181A7DDE416FBEB66D4598292195BB1 /* sspadkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sspadkit.debug.xcconfig; sourceTree = "<group>"; };
-		56BE25D7D0AE9C44447C5ABBD294015F /* sspadkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sspadkit-dummy.m"; sourceTree = "<group>"; };
-		5F0F328A2665E4ADAEA4C2994099990C /* sspadkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = sspadkit.modulemap; sourceTree = "<group>"; };
 		60708C5F2CB57FC80C7CA37A5E177499 /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
-		61F33E1EB0337D4778FE18A52D301C35 /* SSPPopUpAd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSPPopUpAd.swift; path = sspadkit/Public/SSPPopUpAd.swift; sourceTree = "<group>"; };
-		68CA899F2AA359A8E127211ED7791AC6 /* sspadkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sspadkit-prefix.pch"; sourceTree = "<group>"; };
-		6B02D887DC1D8A8EA261F327A8A35497 /* sspadkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sspadkit.release.xcconfig; sourceTree = "<group>"; };
 		6CFEC7490687B57F6ED9DAD9D43FB51D /* sspadkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sspadkit.framework; path = sspadkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		743A2ADF90951D708AA43C7540E6C03D /* sspadkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sspadkit-umbrella.h"; sourceTree = "<group>"; };
-		7993DE77D3370F2EB855B3610000137B /* SSPAdKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSPAdKit.swift; path = sspadkit/Public/SSPAdKit.swift; sourceTree = "<group>"; };
+		7A8AE8D77D55760E12DBF2906292A0EE /* sspadkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = sspadkit.modulemap; sourceTree = "<group>"; };
+		7E8E2193D87C3D1DD5BB6D605AD2ED68 /* sspadkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sspadkit-dummy.m"; sourceTree = "<group>"; };
 		8C0744503EFAEDCF47BFA6CF4FA15059 /* Pods-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8DC343797FE6CDCA192017C12DAE8029 /* Pods-example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-example.modulemap"; sourceTree = "<group>"; };
+		90BC9B2A6B2A221F62266EDDCE837D32 /* NetworkHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6C152D5A6DC466EDA12AA84D5553A5F /* sspadkit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = sspadkit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A352485D0DFAF9124BBE5161C2341742 /* sspadkit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "sspadkit-Info.plist"; sourceTree = "<group>"; };
+		A44A9B3BFAD143A2EFF982E790E560A3 /* SSPBannerAd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSPBannerAd.swift; sourceTree = "<group>"; };
+		A8B9A4AA5736A7F18CC8A41FC8F94BDC /* SSPAdKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSPAdKit.swift; sourceTree = "<group>"; };
 		A9E71BBE73AC44290BD2329F0BA1B094 /* Pods-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-example-frameworks.sh"; sourceTree = "<group>"; };
-		AA4A35142213319866098E4164BF2569 /* SSPAdKitConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSPAdKitConfig.swift; path = sspadkit/Public/SSPAdKitConfig.swift; sourceTree = "<group>"; };
 		BF9B306B206F90F2B9FEFECBB5C3CB65 /* Pods-example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-example-umbrella.h"; sourceTree = "<group>"; };
+		C1F731FF3EF7F98EEF43E50E01F10A07 /* SSPPopUpAdRequest+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SSPPopUpAdRequest+Extensions.swift"; sourceTree = "<group>"; };
+		C448FF611F9CA5F1D9CCFD2D3400822F /* SSPAdKitConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSPAdKitConfig.swift; sourceTree = "<group>"; };
+		C905878EB40873C6F50E4BF4A6EF44D8 /* sspadkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sspadkit.debug.xcconfig; sourceTree = "<group>"; };
+		CDBA310AF8233E311B047970FCF181F2 /* SSPPopUpAd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSPPopUpAd.swift; sourceTree = "<group>"; };
+		CFB41216C422AA02A66032EE065DC3DF /* SSPAdKitConfig+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SSPAdKitConfig+Extensions.swift"; sourceTree = "<group>"; };
+		D94C34E512CD9F3FA02FE995CBF87C8D /* sspadkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sspadkit-umbrella.h"; sourceTree = "<group>"; };
 		F199D42AE3B25C06D9BEBB595138E0BD /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-example.release.xcconfig"; sourceTree = "<group>"; };
+		F412007AF9023DA121106D164BAE2DA0 /* sspadkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sspadkit.release.xcconfig; sourceTree = "<group>"; };
+		F41E727482733C3B864F00C125D1DD2E /* NetworkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F4F4F47A612E18EEDA14877C135D86C4 /* sspadkit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = sspadkit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD1916A776AD85A09D1458E2C8EA936E /* SSPBannerAdRequest+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SSPBannerAdRequest+Extensions.swift"; sourceTree = "<group>"; };
 		FE738AB7B951E639221DD37AAF252244 /* Pods_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_example.framework; path = "Pods-example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,12 +78,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A73063C08621BED663079843DEBB3B1E /* Frameworks */ = {
+		189038F8E6258C38113E8B306EEE2649 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCAD137564E2B5DC3068CB8CDD4C79B5 /* Foundation.framework in Frameworks */,
-				9BF25E88403F968CE7AAA0E4F3DEA22F /* WebKit.framework in Frameworks */,
+				0C7700DB984E2F1539AB9E8AA443D7C6 /* Foundation.framework in Frameworks */,
+				BB3E2335DCCB8327377820F401126210 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,24 +106,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2F32949B82D2E16818EF0B1821ADE9B2 /* Development Pods */ = {
+		554E3C5660121C447B15FAA6A765F3A1 /* sspadkit */ = {
 			isa = PBXGroup;
 			children = (
-				AD29BF441FFA5B6642470EADD3C893D0 /* sspadkit */,
+				6C812474D2FE153D1C82011CBA91FDAE /* Pod */,
+				FA8D1420918092BC43FD42948F8D9F73 /* Private */,
+				DCAE9251C2CDD73E3DB15BFFF44C7FD4 /* Public */,
+				58942D59FF97219DC2022A4CF5FA3CCE /* Support Files */,
 			);
-			name = "Development Pods";
+			name = sspadkit;
+			path = ../../../SDK/sspadkit;
 			sourceTree = "<group>";
 		};
-		5EA1D04AE70E9600E8771EBF5E947BD2 /* Support Files */ = {
+		58942D59FF97219DC2022A4CF5FA3CCE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F0F328A2665E4ADAEA4C2994099990C /* sspadkit.modulemap */,
-				56BE25D7D0AE9C44447C5ABBD294015F /* sspadkit-dummy.m */,
-				05EA33FCF7337816EDA381B84A990064 /* sspadkit-Info.plist */,
-				68CA899F2AA359A8E127211ED7791AC6 /* sspadkit-prefix.pch */,
-				743A2ADF90951D708AA43C7540E6C03D /* sspadkit-umbrella.h */,
-				5181A7DDE416FBEB66D4598292195BB1 /* sspadkit.debug.xcconfig */,
-				6B02D887DC1D8A8EA261F327A8A35497 /* sspadkit.release.xcconfig */,
+				7A8AE8D77D55760E12DBF2906292A0EE /* sspadkit.modulemap */,
+				7E8E2193D87C3D1DD5BB6D605AD2ED68 /* sspadkit-dummy.m */,
+				A352485D0DFAF9124BBE5161C2341742 /* sspadkit-Info.plist */,
+				107C78B258A3550AE2E2A552C447CCE8 /* sspadkit-prefix.pch */,
+				D94C34E512CD9F3FA02FE995CBF87C8D /* sspadkit-umbrella.h */,
+				C905878EB40873C6F50E4BF4A6EF44D8 /* sspadkit.debug.xcconfig */,
+				F412007AF9023DA121106D164BAE2DA0 /* sspadkit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../../Example/example/Pods/Target Support Files/sspadkit";
@@ -136,33 +150,27 @@
 			path = "Target Support Files/Pods-example";
 			sourceTree = "<group>";
 		};
-		96DB4C9F438A5D4D46BF88F89E23E207 /* Pod */ = {
+		6A945323E622454BF6B724C720166A48 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A6C152D5A6DC466EDA12AA84D5553A5F /* sspadkit.podspec */,
+				554E3C5660121C447B15FAA6A765F3A1 /* sspadkit */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AD29BF441FFA5B6642470EADD3C893D0 /* sspadkit */ = {
+		6C812474D2FE153D1C82011CBA91FDAE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7993DE77D3370F2EB855B3610000137B /* SSPAdKit.swift */,
-				AA4A35142213319866098E4164BF2569 /* SSPAdKitConfig.swift */,
-				1C5BEDDCCA778FE5E6B970D42392BF58 /* SSPBannerAd.swift */,
-				61F33E1EB0337D4778FE18A52D301C35 /* SSPPopUpAd.swift */,
-				96DB4C9F438A5D4D46BF88F89E23E207 /* Pod */,
-				5EA1D04AE70E9600E8771EBF5E947BD2 /* Support Files */,
+				F4F4F47A612E18EEDA14877C135D86C4 /* sspadkit.podspec */,
 			);
-			name = sspadkit;
-			path = ../../../SDK/sspadkit;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2F32949B82D2E16818EF0B1821ADE9B2 /* Development Pods */,
+				6A945323E622454BF6B724C720166A48 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				EAD31AFA788769D589B744EC4D63CD2A /* Products */,
 				2BCF16978EC2F0B687CAFB8E056ED592 /* Targets Support Files */,
@@ -178,6 +186,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DCAE9251C2CDD73E3DB15BFFF44C7FD4 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A8B9A4AA5736A7F18CC8A41FC8F94BDC /* SSPAdKit.swift */,
+				C448FF611F9CA5F1D9CCFD2D3400822F /* SSPAdKitConfig.swift */,
+				A44A9B3BFAD143A2EFF982E790E560A3 /* SSPBannerAd.swift */,
+				CDBA310AF8233E311B047970FCF181F2 /* SSPPopUpAd.swift */,
+			);
+			name = Public;
+			path = sspadkit/Public;
+			sourceTree = "<group>";
+		};
 		EAD31AFA788769D589B744EC4D63CD2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,9 +207,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FA8D1420918092BC43FD42948F8D9F73 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				90BC9B2A6B2A221F62266EDDCE837D32 /* NetworkHelper.swift */,
+				F41E727482733C3B864F00C125D1DD2E /* NetworkService.swift */,
+				CFB41216C422AA02A66032EE065DC3DF /* SSPAdKitConfig+Extensions.swift */,
+				FD1916A776AD85A09D1458E2C8EA936E /* SSPBannerAdRequest+Extensions.swift */,
+				C1F731FF3EF7F98EEF43E50E01F10A07 /* SSPPopUpAdRequest+Extensions.swift */,
+			);
+			name = Private;
+			path = sspadkit/Private;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2097B46BB721861D252BFF12329B329E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3D5EB63CF5E82AC024373F9ED9DE5 /* sspadkit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE1F30BD92D4E386C57605831D8EBB41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,25 +239,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE236888DB8BA5650CFB0B873DEF4F56 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDE57ADF6EC5B0E0841E167D8DDBF208 /* sspadkit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		15CC2AC99D4E448C8466CFC66E2A83CE /* sspadkit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B55AD433A74E3BAFB178628525FCEE16 /* Build configuration list for PBXNativeTarget "sspadkit" */;
+			buildConfigurationList = 866FEA3CCA53841F35393D0D534D5999 /* Build configuration list for PBXNativeTarget "sspadkit" */;
 			buildPhases = (
-				DE236888DB8BA5650CFB0B873DEF4F56 /* Headers */,
-				C4F77A64B829E9DA67AE0569648AF188 /* Sources */,
-				A73063C08621BED663079843DEBB3B1E /* Frameworks */,
-				199990B369955B19115994B4706CC159 /* Resources */,
+				2097B46BB721861D252BFF12329B329E /* Headers */,
+				BFC6D4841D0936E4372B150F22F76C83 /* Sources */,
+				189038F8E6258C38113E8B306EEE2649 /* Frameworks */,
+				D1B7A2A723C208302829AE56CCD210C5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -239,7 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1BB3BF188D0728414DC70787ADA454AF /* PBXTargetDependency */,
+				797E88FAD6D96889D13AD61BCC8894B9 /* PBXTargetDependency */,
 			);
 			name = "Pods-example";
 			productName = "Pods-example";
@@ -282,7 +315,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		199990B369955B19115994B4706CC159 /* Resources */ = {
+		D1B7A2A723C208302829AE56CCD210C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,26 +333,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4F77A64B829E9DA67AE0569648AF188 /* Sources */ = {
+		BFC6D4841D0936E4372B150F22F76C83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C34BD5303328CA8D000193BA0BA76AC /* sspadkit-dummy.m in Sources */,
-				426634CFB61004ACCC313DC0F8B1C8F1 /* SSPAdKit.swift in Sources */,
-				F9FCED4AA1DBA4383E9576DA27139105 /* SSPAdKitConfig.swift in Sources */,
-				1227E92B7F0FF91BDB2F0769B3AF88F2 /* SSPBannerAd.swift in Sources */,
-				FD96EBC2EE4B9F4604312B06E43F384A /* SSPPopUpAd.swift in Sources */,
+				6368B09FCCE121DCC30FB11024C0933F /* NetworkHelper.swift in Sources */,
+				7D26EED5E2635313FD0D02A55791E2F4 /* NetworkService.swift in Sources */,
+				7817FA3D11EACB641382A980D22BCCB2 /* sspadkit-dummy.m in Sources */,
+				4E4AC453818A91C35D98A0D8B5F80EFB /* SSPAdKit.swift in Sources */,
+				30666BD649E2C4DC4463192AF1764622 /* SSPAdKitConfig+Extensions.swift in Sources */,
+				1141FD9B04DE9AA2BD5ACB1DFA82C2D2 /* SSPAdKitConfig.swift in Sources */,
+				BC0F41D324F3495F9742E74EE8B16C03 /* SSPBannerAd.swift in Sources */,
+				0BC11603959D80DEA1F9F992D963FD07 /* SSPBannerAdRequest+Extensions.swift in Sources */,
+				83AF3175089F154BF8F0515A214CC1C7 /* SSPPopUpAd.swift in Sources */,
+				F7C66B35A0779199D7DBD3C13B47DE53 /* SSPPopUpAdRequest+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1BB3BF188D0728414DC70787ADA454AF /* PBXTargetDependency */ = {
+		797E88FAD6D96889D13AD61BCC8894B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sspadkit;
 			target = 15CC2AC99D4E448C8466CFC66E2A83CE /* sspadkit */;
-			targetProxy = DD228602947DEDC1895B0D28DB031F4C /* PBXContainerItemProxy */;
+			targetProxy = F120F6EE4A42559E336B52E8AD262EEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -361,6 +399,77 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		435D20FA9BD7671D0C9332CFC8DE5F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F412007AF9023DA121106D164BAE2DA0 /* sspadkit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/sspadkit/sspadkit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sspadkit/sspadkit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/sspadkit/sspadkit.modulemap";
+				PRODUCT_MODULE_NAME = sspadkit;
+				PRODUCT_NAME = sspadkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		593C88AFC7D2FB64B6116FEB4CEA13C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C905878EB40873C6F50E4BF4A6EF44D8 /* sspadkit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/sspadkit/sspadkit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sspadkit/sspadkit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/sspadkit/sspadkit.modulemap";
+				PRODUCT_MODULE_NAME = sspadkit;
+				PRODUCT_NAME = sspadkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		71243899B61152433AAE34EE86456EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -490,42 +599,6 @@
 			};
 			name = Debug;
 		};
-		82AA210D8DB633C4944775B1C9B3B506 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B02D887DC1D8A8EA261F327A8A35497 /* sspadkit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/sspadkit/sspadkit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/sspadkit/sspadkit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/sspadkit/sspadkit.modulemap";
-				PRODUCT_MODULE_NAME = sspadkit;
-				PRODUCT_NAME = sspadkit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E42A22982B9EA21071A83F14B15AAABF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60708C5F2CB57FC80C7CA37A5E177499 /* Pods-example.debug.xcconfig */;
@@ -563,41 +636,6 @@
 			};
 			name = Debug;
 		};
-		F5F3B90E1FB96E05CE0BD2C556B4EED7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5181A7DDE416FBEB66D4598292195BB1 /* sspadkit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/sspadkit/sspadkit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/sspadkit/sspadkit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/sspadkit/sspadkit.modulemap";
-				PRODUCT_MODULE_NAME = sspadkit;
-				PRODUCT_NAME = sspadkit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -619,11 +657,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B55AD433A74E3BAFB178628525FCEE16 /* Build configuration list for PBXNativeTarget "sspadkit" */ = {
+		866FEA3CCA53841F35393D0D534D5999 /* Build configuration list for PBXNativeTarget "sspadkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5F3B90E1FB96E05CE0BD2C556B4EED7 /* Debug */,
-				82AA210D8DB633C4944775B1C9B3B506 /* Release */,
+				593C88AFC7D2FB64B6116FEB4CEA13C7 /* Debug */,
+				435D20FA9BD7671D0C9332CFC8DE5F56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

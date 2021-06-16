@@ -67,29 +67,12 @@
                                         <rect key="frame" x="16" y="52" width="382" height="802"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abs-Au-BaW">
-                                        <rect key="frame" x="352" y="68" width="30" height="35"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="Jz6-wp-ugR"/>
-                                            <constraint firstAttribute="height" constant="35" id="Plr-yA-SAs"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <state key="normal" title="X">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="closePopUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lpe-8w-Wtc"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.51983177740842301" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="cow-QZ-IFp" firstAttribute="leading" secondItem="Mzr-Kc-nCF" secondAttribute="leading" constant="16" id="JJ0-jC-7xC"/>
                                     <constraint firstAttribute="trailing" secondItem="cow-QZ-IFp" secondAttribute="trailing" constant="16" id="Jz1-BL-yFl"/>
-                                    <constraint firstItem="abs-Au-BaW" firstAttribute="top" secondItem="Mzr-Kc-nCF" secondAttribute="top" constant="68" id="R46-hI-jLo"/>
                                     <constraint firstAttribute="bottom" secondItem="cow-QZ-IFp" secondAttribute="bottom" constant="42" id="V2m-TH-yah"/>
-                                    <constraint firstAttribute="trailing" secondItem="abs-Au-BaW" secondAttribute="trailing" constant="32" id="fMl-xO-srg"/>
                                     <constraint firstItem="cow-QZ-IFp" firstAttribute="top" secondItem="Mzr-Kc-nCF" secondAttribute="top" constant="52" id="z4f-jM-tsO"/>
                                 </constraints>
                             </view>

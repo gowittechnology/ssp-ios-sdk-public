@@ -9,40 +9,64 @@ import Foundation
 import UIKit
 import WebKit
 
+protocol SSPBannerAdRequestProtocol  {
+    func requestAd(handler: @escaping ((SSPBannerAd) -> Void))
+}
+
+//extension SSPBannerAdRequestProtocol  {
+//    func requestAd(handler: @escaping ((SSPBannerAd) -> Void)) {}
+//}
+
 public class SSPBannerAd : NSObject, WKNavigationDelegate {
     
+    public var addId : Int?
     private var webView: WKWebView?
-    private var request: URLRequest?
     private var containerView: UIView?
+    private var addresponse: AddResponse
+    private var bannerDelegate: BannerAdDelegate
+    
+    init(_addresponse: AddResponse, _bannerDelegate: BannerAdDelegate, _identifier : Int? = nil) {
+        self.addresponse = _addresponse
+        self.bannerDelegate = _bannerDelegate
+        self.addId = _identifier
+    }
     
     public func show(in view: UIView) {
-        self.containerView = view
-        
-        for item in view.subviews {
-            item.removeFromSuperview()
-        }
-        
-        let frame = CGRect(x: 0.0, y: 0.0, width: view.frame.width, height: view.frame.height)
-        self.webView = WKWebView(frame: frame, configuration: WKWebViewConfiguration())
-        self.webView?.navigationDelegate = self
-        
-        let url = URL(string: "https://www.google.com")
-        self.request = (url == nil) ? nil : URLRequest(url: url!)
-        if let _webView = self.webView, let _request = self.request {
-            view.addSubview(_webView)
-            _webView.load(_request)
+        DispatchQueue.main.async {
+            self.containerView = view
+            
+            for item in view.subviews {
+                item.removeFromSuperview()
+            }
+            
+            let frame = CGRect(x: 0.0, y: 0.0, width: view.frame.width, height: view.frame.height)
+            self.webView = WKWebView(frame: frame, configuration: WKWebViewConfiguration())
+            self.webView?.navigationDelegate = self
+            
+            if let _webView = self.webView, let _ad = self.addresponse.ad {
+                self.bannerDelegate.addWillAppear(forBanner: self)
+                view.addSubview(_webView)
+                _webView.loadHTMLString(_ad, baseURL: nil)
+            }
         }
         
     }
     
 }
 
-public class SSPBannerAdRequest {
+public class SSPBannerAdRequest : SSPBannerAdRequestProtocol {
     
-    private var bannerAd: SSPBannerAd?
+
+    var bannerAd: SSPBannerAd?
+    var config : SSPAdKitConfig
+    var addSize: SSPAdContainerSize
+    var bannerDelegate: BannerAdDelegate
+    var addId: Int?
     
-    public func requestAd(handler: ((SSPBannerAd) -> Void)) {
-        let banner = SSPBannerAd()
-        handler(banner)
+    public init(_config: SSPAdKitConfig, _addSize: SSPAdContainerSize, _delegate: BannerAdDelegate, _identifier : Int? = nil) {
+        self.config = _config
+        self.addSize = _addSize
+        self.bannerDelegate = _delegate
+        self.addId = _identifier
     }
 }

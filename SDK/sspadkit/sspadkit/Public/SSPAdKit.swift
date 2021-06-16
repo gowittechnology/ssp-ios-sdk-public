@@ -9,11 +9,14 @@ import Foundation
 import UIKit
 
 public protocol BannerAdDelegate: NSObjectProtocol {
-    func adReceived(forBanner adItem: SSPBannerAd)
+    func addReceived(forBanner adItem: SSPBannerAd)
+    func addWillAppear(forBanner adItem: SSPBannerAd)
 }
 
 public protocol PopUpAdDelegate: NSObjectProtocol {
-    func adReceived(forPopUp adItem: SSPPopUpAd)
+    func addReceived(forPopUp adItem: SSPPopUpAd)
+    func addWillAppear(forPopUp adItem: SSPPopUpAd)
+    func closePopUp(forPopUp adItem: SSPPopUpAd)
 }
 
 public enum SSPRequestResponse : Int {
@@ -23,24 +26,34 @@ public enum SSPRequestResponse : Int {
     case containerNotSuitable
 }
 
+struct AddResponse {
+    let succes : Bool
+    let error : String?
+    let ad: String?
+    let width : Int?
+    let height : Int?
+    let billable : String?
+}
+
 public class SSPAdKit {
     
-    public var config: SSPAdKitConfig?
+    public var config: SSPAdKitConfig
     public var bannerDelegate: BannerAdDelegate?
     public var popUpDelegate: PopUpAdDelegate?
 
-    convenience public init(_config: SSPAdKitConfig) {
-        debugPrint("VfkFrameworkDemo initialized.")
-        self.init()
+    public init(_config: SSPAdKitConfig) {
         self.config = _config
     }
 
     
-    public func requestBanner(for size:SSPAdContainerSize) -> SSPRequestResponse {
+    public func requestBanner(for size:SSPAdContainerSize, _identifier : Int? = nil) -> SSPRequestResponse {
         if let bannerDelegate = bannerDelegate {
-            let bannerReq = SSPBannerAdRequest()
+            let bannerReq = SSPBannerAdRequest(_config: config, _addSize: size, _delegate: bannerDelegate, _identifier: _identifier)
             bannerReq.requestAd(handler: { banner in
-                bannerDelegate.adReceived(forBanner: banner)
+                DispatchQueue.main.async {
+                    bannerDelegate.addReceived(forBanner: banner)
+                    
+                }
             })
             return .succes
         } else {
@@ -48,11 +61,14 @@ public class SSPAdKit {
         }
     }
     
-    public func requestPopup(for size:SSPAdContainerSize) -> SSPRequestResponse {
+    public func requestPopup(for size:SSPAdContainerSize, _identifier : Int? = nil) -> SSPRequestResponse {
         if let popUpDelegate = popUpDelegate {
-            let popUpReq = SSPPopUpAdRequest()
+            let popUpReq = SSPPopUpAdRequest(_config: config, _addSize: size, _delegate: popUpDelegate, _identifier: _identifier)
             popUpReq.requestAd(handler: { popUp in
-                popUpDelegate.adReceived(forPopUp: popUp)
+                DispatchQueue.main.async {
+                    popUpDelegate.addReceived(forPopUp: popUp)
+                    
+                }
             })
             return .succes
         } else {

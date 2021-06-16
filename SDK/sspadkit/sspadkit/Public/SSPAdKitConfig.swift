@@ -6,53 +6,81 @@
 //
 
 import Foundation
+import UIKit
+import WebKit
+import SystemConfiguration
+import AppTrackingTransparency
+import AdSupport
 
-public class SSPAdKitConfig {
-    
-    // not mandatory properties - source: developer
-    public var yearOfBirth = ""
-    public var gender = ""
-    public var latitude = ""
-    public var longtitude = ""
-    public var customdata = ""
-    public var applicationVersion = ""
-    public var language = ""
-    public var userAgent = ""
-    
-    // mandatory properties - source: developer
-    public var inventoryID = ""
-    public var adUnitID = ""
-    public var adUnitSize : SSPAdContainerSize?
-    
-    // mandatory device properties - source: SDK
-    private var connectionType = ""
-    private var manifacturer = ""
-    private var Model = ""
-    private var OS = ""
-    private var OSVersion = ""
-    private var screenWidth = ""
-    private var screenHeight = ""
-    
-    // mandatory SDK properties - source: SDK
-    private var sdkVersion = ""
-    private var session = ""
-    
-    convenience public  init(_inventoryID: String, _adUnitID: String) {
-        self.init()
-        self.inventoryID = _inventoryID
-        self.adUnitID = _adUnitID
-    }
-    
+public enum GenderTypes : String {
+    case unknown =  ""
+    case male = "M"
+    case female = "F"
 }
+
 
 public class SSPAdContainerSize {
     
-    private var adUnitWidth = ""
-    private var adUnitHeight = ""
+    public var adUnitWidth : Int
+    public var adUnitHeight : Int
     
-    convenience public init(_adUnitWidth: String, _adUnitHeight: String) {
-        self.init()
+    public init(_adUnitWidth: Int, _adUnitHeight: Int) {
         self.adUnitWidth = _adUnitWidth
         self.adUnitHeight = _adUnitHeight
     }
 }
+
+protocol SSPAdKitConfigProtocol  {
+    func setDevicePropertiesDefault()
+    func getParams() -> [String:Any]
+}
+
+//extension SSPAdKitConfigProtocol  {
+//    func setDevicePropertiesDefault() {}
+//    func getParams() -> [String:Any] { return [:] }
+//}
+
+public class SSPAdKitConfig : SSPAdKitConfigProtocol{
+    
+    // not mandatory properties - source: developer
+    public var yearOfBirth : Int?
+    public var gender : GenderTypes = .unknown
+    public var categories:[String:String] = [:]
+    public var latitude : String?
+    public var longtitude : String?
+    public var customdata:[String:String] = [:]
+    public var applicationVersion : String?
+    public var language : String?
+    public var shouldAskForIDFA = false
+    
+    
+    // mandatory properties - source: developer
+    public var inventoryID : String
+    public var adUnitID : String
+    public var adUnitSize : SSPAdContainerSize?
+    
+    public var interstitial = 0
+
+    
+    public init(_inventoryID: String, _adUnitID: String) {
+        self.inventoryID = _inventoryID
+        self.adUnitID = _adUnitID
+        self.setDevicePropertiesDefault()
+    }
+    
+    public func getBannerParams() -> [String:Any] {
+        self.interstitial = 0
+        return self.getParams()
+    }
+    
+    public func getPopUpParams() -> [String:Any] {
+        self.interstitial = 1
+        return self.getParams()
+    }
+    
+    
+}
+
+
+
+

@@ -22,7 +22,7 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let config = SSPAdKitConfig(_inventoryID: "inventID", _adUnitID: "adId")
+        let config = SSPAdKitConfig(_inventoryID: "XXXXXXXXX", _adUnitID: "XXXXXXXXX")
         adManager = SSPAdKit.init(_config: config)
         adManager?.bannerDelegate = self
         adManager?.popUpDelegate = self
@@ -31,22 +31,22 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
 
     @IBAction func showBanner(_ sender: Any) {
         selection = 0
-        let container = SSPAdContainerSize(_adUnitWidth: "", _adUnitHeight: "")
+        let container = SSPAdContainerSize(_adUnitWidth: 100, _adUnitHeight: 100)
         _ = adManager?.requestBanner(for: container)
     }
     
     @IBAction func showBanner2(_ sender: Any) {
         selection = 1
-        let container = SSPAdContainerSize(_adUnitWidth: "", _adUnitHeight: "")
+        let container = SSPAdContainerSize(_adUnitWidth: 100, _adUnitHeight: 100)
         _ = adManager?.requestBanner(for: container)
     }
     
     @IBAction func showPopUp(_ sender: Any) {
-        let container = SSPAdContainerSize(_adUnitWidth: "", _adUnitHeight: "")
+        let container = SSPAdContainerSize(_adUnitWidth: 100, _adUnitHeight: 100)
         _ = adManager?.requestPopup(for: container)
     }
     
-    func adReceived(forBanner adItem: SSPBannerAd) {
+    func addReceived(forBanner adItem: SSPBannerAd) {
         if selection == 0 {
             adItem.show(in: bannerContainerView)
             return
@@ -54,12 +54,19 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
         adItem.show(in: bannerContainerView2)
     }
     
-    func adReceived(forPopUp adItem: SSPPopUpAd) {
+    func addWillAppear(forBanner adItem: SSPBannerAd) {
+        
+    }
+    
+    func addReceived(forPopUp adItem: SSPPopUpAd) {
         popUpBackgroundView.isHidden = false
         adItem.show(in: popUpContainerView)
     }
-    @IBAction func closePopUp(_ sender: Any) {
+    
+    func addWillAppear(forPopUp adItem: SSPPopUpAd){}
+    func closePopUp(forPopUp adItem: SSPPopUpAd){
         popUpBackgroundView.isHidden = true
     }
+    
 }
 

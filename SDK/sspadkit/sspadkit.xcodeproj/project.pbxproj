@@ -13,6 +13,11 @@
 		8D3D5C3C260E7586004BF100 /* SSPBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3D5C3B260E7586004BF100 /* SSPBannerAd.swift */; };
 		8D3D5C42260E75CD004BF100 /* SSPPopUpAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3D5C41260E75CD004BF100 /* SSPPopUpAd.swift */; };
 		8D3D5C47260E7F23004BF100 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D5C46260E7F23004BF100 /* WebKit.framework */; };
+		8D4D4E0926797B2F00C28CC2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E0826797B2F00C28CC2 /* NetworkService.swift */; };
+		8D4D4E0B2679829500C28CC2 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E0A2679829500C28CC2 /* NetworkHelper.swift */; };
+		8D4D4E0F2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E0E2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift */; };
+		8D4D4E112679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E102679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift */; };
+		8D4D4E132679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E122679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8D3D5C3B260E7586004BF100 /* SSPBannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPBannerAd.swift; sourceTree = "<group>"; };
 		8D3D5C41260E75CD004BF100 /* SSPPopUpAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPPopUpAd.swift; sourceTree = "<group>"; };
 		8D3D5C46260E7F23004BF100 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8D4D4E0826797B2F00C28CC2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8D4D4E0A2679829500C28CC2 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		8D4D4E0E2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSPAdKitConfig+Extensions.swift"; sourceTree = "<group>"; };
+		8D4D4E102679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSPBannerAdRequest+Extensions.swift"; sourceTree = "<group>"; };
+		8D4D4E122679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSPPopUpAdRequest+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		8D3D5BB6260E57EA004BF100 /* sspadkit */ = {
 			isa = PBXGroup;
 			children = (
+				8D4D4E0726797B0700C28CC2 /* Private */,
 				8D3D5C38260E6BA5004BF100 /* Public */,
 				8D3D5BB7260E57EA004BF100 /* sspadkit.h */,
 				8D3D5BB8260E57EA004BF100 /* Info.plist */,
@@ -82,6 +93,18 @@
 				8D3D5C46260E7F23004BF100 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D4D4E0726797B0700C28CC2 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				8D4D4E0826797B2F00C28CC2 /* NetworkService.swift */,
+				8D4D4E0A2679829500C28CC2 /* NetworkHelper.swift */,
+				8D4D4E0E2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift */,
+				8D4D4E102679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift */,
+				8D4D4E122679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4D4E0926797B2F00C28CC2 /* NetworkService.swift in Sources */,
+				8D4D4E0F2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift in Sources */,
 				8D3D5C35260E6B98004BF100 /* SSPAdKitConfig.swift in Sources */,
+				8D4D4E112679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift in Sources */,
 				8D3D5C3C260E7586004BF100 /* SSPBannerAd.swift in Sources */,
 				8D3D5C42260E75CD004BF100 /* SSPPopUpAd.swift in Sources */,
+				8D4D4E0B2679829500C28CC2 /* NetworkHelper.swift in Sources */,
+				8D4D4E132679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift in Sources */,
 				8D3D5BC1260E593F004BF100 /* SSPAdKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
