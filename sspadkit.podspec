@@ -16,14 +16,14 @@ Pod::Spec.new do |spec|
                        Secure, reliable ads framework for ios apps
                        DESC
 
-  spec.homepage     = "https://github.com/dgsygtozcelik/goWit"
+  spec.homepage     = "https://github.com/gowittechnology/ssp-ios-sdk-public"
 
   spec.license           =  { :type => 'MIT' }
 
   spec.author             = { "Dogus Yigit Ozcelik" => "dogusyigitozcelik@gmail.com" }
 
 
-  spec.source            = { :git => "https://github.com/dgsygtozcelik/goWit.git", :tag => spec.version.to_s }
+  spec.source            = { :git => "https://github.com/gowittechnology/ssp-ios-sdk-public.git", :tag => spec.version.to_s }
 
 
   spec.framework      = 'WebKit'

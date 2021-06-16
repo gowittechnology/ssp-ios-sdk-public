@@ -6,7 +6,8 @@ target 'example' do
   use_frameworks!
 
 
-  pod 'sspadkit', :path => '../../SDK/sspadkit/'
+  #pod '', :path => '../../SDK/sspadkit/'
+  pod 'sspadkit', :git => 'https://github.com/gowittechnology/ssp-ios-sdk-public.git'
   # Pods for example
 
 end
