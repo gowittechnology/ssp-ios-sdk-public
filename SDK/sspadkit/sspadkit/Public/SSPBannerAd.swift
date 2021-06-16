@@ -20,36 +20,48 @@ protocol SSPBannerAdRequestProtocol  {
 public class SSPBannerAd : NSObject, WKNavigationDelegate {
     
     public var addId : Int?
+    public let addresponse: AddResponse
     private var webView: WKWebView?
-    private var containerView: UIView?
-    private var addresponse: AddResponse
     private var bannerDelegate: BannerAdDelegate
+    private var instance: SSPBannerAd?
+    private var config: SSPAdKitConfig
     
-    init(_addresponse: AddResponse, _bannerDelegate: BannerAdDelegate, _identifier : Int? = nil) {
+    init(_addresponse: AddResponse, _bannerDelegate: BannerAdDelegate, _config: SSPAdKitConfig, _identifier : Int? = nil) {
         self.addresponse = _addresponse
         self.bannerDelegate = _bannerDelegate
         self.addId = _identifier
+        self.config = _config
+        super.init()
+        self.instance = self
+        
     }
     
     public func show(in view: UIView) {
         DispatchQueue.main.async {
-            self.containerView = view
-            
             for item in view.subviews {
                 item.removeFromSuperview()
             }
             
             let frame = CGRect(x: 0.0, y: 0.0, width: view.frame.width, height: view.frame.height)
+            
+            if ((frame.width < CGFloat(self.config.adUnitSize?.adUnitWidth ?? 0)) || (frame.height < CGFloat(self.config.adUnitSize?.adUnitHeight ?? 0))) {
+                self.bannerDelegate.failedToLoadAdd(forBanner: self, reason: SSPResult.addContainerSizeIsNotCorrect)
+                self.instance = nil
+                return
+            }
+            
             self.webView = WKWebView(frame: frame, configuration: WKWebViewConfiguration())
             self.webView?.navigationDelegate = self
             
-            if let _webView = self.webView, let _ad = self.addresponse.ad {
-                self.bannerDelegate.addWillAppear(forBanner: self)
-                view.addSubview(_webView)
-                _webView.loadHTMLString(_ad, baseURL: nil)
+            if let _ = self.webView, let _ad = self.addresponse.ad {
+                self.bannerDelegate.addWillAppear?(forBanner: self)
+                view.addSubview(self.webView!)
+                self.webView!.loadHTMLString(_ad, baseURL: nil)
+            } else {
+                self.bannerDelegate.failedToLoadAdd(forBanner: self, reason: SSPResult.addViewConstructorError)
+                self.instance = nil
             }
         }
-        
     }
     
 }

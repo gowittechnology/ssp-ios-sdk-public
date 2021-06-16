@@ -18,6 +18,8 @@
 		8D4D4E0F2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E0E2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift */; };
 		8D4D4E112679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E102679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift */; };
 		8D4D4E132679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E122679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift */; };
+		8D4D4E17267A663600C28CC2 /* SSPAdKitEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E16267A663600C28CC2 /* SSPAdKitEnums.swift */; };
+		8D4D4E19267A68BF00C28CC2 /* SSPAdContainerSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D4E18267A68BF00C28CC2 /* SSPAdContainerSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		8D4D4E0E2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSPAdKitConfig+Extensions.swift"; sourceTree = "<group>"; };
 		8D4D4E102679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSPBannerAdRequest+Extensions.swift"; sourceTree = "<group>"; };
 		8D4D4E122679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSPPopUpAdRequest+Extensions.swift"; sourceTree = "<group>"; };
+		8D4D4E16267A663600C28CC2 /* SSPAdKitEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPAdKitEnums.swift; sourceTree = "<group>"; };
+		8D4D4E18267A68BF00C28CC2 /* SSPAdContainerSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPAdContainerSize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				8D3D5C34260E6B98004BF100 /* SSPAdKitConfig.swift */,
 				8D3D5C3B260E7586004BF100 /* SSPBannerAd.swift */,
 				8D3D5C41260E75CD004BF100 /* SSPPopUpAd.swift */,
+				8D4D4E16267A663600C28CC2 /* SSPAdKitEnums.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 				8D4D4E0E2679A0EC00C28CC2 /* SSPAdKitConfig+Extensions.swift */,
 				8D4D4E102679B86800C28CC2 /* SSPBannerAdRequest+Extensions.swift */,
 				8D4D4E122679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift */,
+				8D4D4E18267A68BF00C28CC2 /* SSPAdContainerSize.swift */,
 			);
 			path = Private;
 			sourceTree = "<group>";
@@ -193,8 +199,10 @@
 				8D3D5C3C260E7586004BF100 /* SSPBannerAd.swift in Sources */,
 				8D3D5C42260E75CD004BF100 /* SSPPopUpAd.swift in Sources */,
 				8D4D4E0B2679829500C28CC2 /* NetworkHelper.swift in Sources */,
+				8D4D4E17267A663600C28CC2 /* SSPAdKitEnums.swift in Sources */,
 				8D4D4E132679B94A00C28CC2 /* SSPPopUpAdRequest+Extensions.swift in Sources */,
 				8D3D5BC1260E593F004BF100 /* SSPAdKit.swift in Sources */,
+				8D4D4E19267A68BF00C28CC2 /* SSPAdContainerSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

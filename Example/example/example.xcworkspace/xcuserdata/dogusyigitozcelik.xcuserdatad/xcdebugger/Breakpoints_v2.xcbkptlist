@@ -23,22 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "59AD6579-DB69-4B71-94DF-A11BB1E312FF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../SDK/sspadkit/sspadkit/Public/SSPPopUpAd.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "show(in:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "43DE16F6-113B-4363-B59B-212877A50FD9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -46,42 +30,10 @@
             filePath = "../../SDK/sspadkit/sspadkit/Public/SSPBannerAd.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "show(in:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "43DE16F6-113B-4363-B59B-212877A50FD9 - 741021be73fc88d5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "sspadkit.SSPBannerAd.show(in: __C.UIView) -&gt; ()"
-                  moduleName = "sspadkit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dogusyigitozcelik/Desktop/Development/goWit/SDK/sspadkit/sspadkit/Public/SSPBannerAd.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "158">
-               </Location>
-               <Location
-                  uuid = "43DE16F6-113B-4363-B59B-212877A50FD9 - 98afa73f33734120"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in sspadkit.SSPBannerAd.show(in: __C.UIView) -&gt; ()"
-                  moduleName = "sspadkit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dogusyigitozcelik/Desktop/Development/goWit/SDK/sspadkit/sspadkit/Public/SSPBannerAd.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "170">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,8 +46,8 @@
             filePath = "../../SDK/sspadkit/sspadkit/Public/SSPAdKit.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "SSPAdKit"
             landmarkType = "3">
          </BreakpointContent>
@@ -110,26 +62,42 @@
             filePath = "../../SDK/sspadkit/sspadkit/Public/SSPAdKit.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "requestBanner(for:_identifier:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0C1F8A5B-0CDE-428E-81B6-4F6818E0F4F5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../SDK/sspadkit/sspadkit/Public/SSPPopUpAd.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "show(in:)"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "55B8C43A-F459-404A-A04C-52D01637F4E2 - e60b23dcafb6a956"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sspadkit.SSPAdKit.__allocating_init(_config: sspadkit.SSPAdKitConfig) -&gt; sspadkit.SSPAdKit"
+                  moduleName = "sspadkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dogusyigitozcelik/Desktop/Development/goWit/SDK/sspadkit/sspadkit/Public/SSPAdKit.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  uuid = "55B8C43A-F459-404A-A04C-52D01637F4E2 - 3ee595418963e751"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sspadkit.SSPAdKit.init(_config: sspadkit.SSPAdKitConfig) -&gt; sspadkit.SSPAdKit"
+                  moduleName = "sspadkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dogusyigitozcelik/Desktop/Development/goWit/SDK/sspadkit/sspadkit/Public/SSPAdKit.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -142,8 +110,8 @@
             filePath = "example/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "closePopUp(forPopUp:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -151,16 +119,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "34CC9D27-7FBC-4FCD-9C91-C15AD6B9B94B"
+            uuid = "33BB3D29-42D1-4DE9-B80C-F9FFD3A52B22"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "example/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "addReceived(forPopUp:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7D69BB0-5C72-4339-A21A-7D1EC9AA44B3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../SDK/sspadkit/sspadkit/Public/SSPPopUpAd.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "crossButtonTapped(_:)"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "closePopUpAction()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

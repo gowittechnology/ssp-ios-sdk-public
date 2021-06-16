@@ -15,10 +15,12 @@ extension SSPPopUpAdRequest {
     func requestAd(handler: @escaping ((SSPPopUpAd) -> Void)) {
         self.config.adUnitSize = addSize
         let params = self.config.getPopUpParams()
+        debugPrint("PopUp request params: \(params)")
         let networkHelper = NetworkHelper()
+        networkHelper.timeOutInterval = max((config.addTimeOutInterval ?? 30), 30)
         networkHelper.requestPopUp(params: params, handler: { data in
-            let banner = SSPPopUpAd(_addresponse: data, _popUpDelegate: self.popUpDelegate, _identifier: self.addId)
-            handler(banner)
+            let popUp = SSPPopUpAd(_addresponse: data, _popUpDelegate: self.popUpDelegate, _config: self.config, _identifier: self.addId)
+            handler(popUp)
         })
     }
     

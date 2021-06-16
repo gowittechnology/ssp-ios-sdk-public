@@ -18,7 +18,7 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
     @IBOutlet weak var popUpBackgroundView: UIView!
     
     var adManager: SSPAdKit?
-    var selection = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,44 +26,63 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
         adManager = SSPAdKit.init(_config: config)
         adManager?.bannerDelegate = self
         adManager?.popUpDelegate = self
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func showBanner(_ sender: Any) {
-        selection = 0
-        let container = SSPAdContainerSize(_adUnitWidth: 100, _adUnitHeight: 100)
-        _ = adManager?.requestBanner(for: container)
+        if let manager = adManager {
+            let result = manager.requestBanner(for: SSPBannerSizes.banner, _identifier: 0)
+            print(result.enumDetails)
+        }
+        
     }
     
     @IBAction func showBanner2(_ sender: Any) {
-        selection = 1
-        let container = SSPAdContainerSize(_adUnitWidth: 100, _adUnitHeight: 100)
-        _ = adManager?.requestBanner(for: container)
+        if let manager = adManager {
+            let result = manager.requestBanner(for: SSPBannerSizes.banner, _identifier: 1)
+            print(result.enumDetails)
+        }
+        
     }
     
     @IBAction func showPopUp(_ sender: Any) {
-        let container = SSPAdContainerSize(_adUnitWidth: 100, _adUnitHeight: 100)
-        _ = adManager?.requestPopup(for: container)
+        if let manager = adManager {
+            let result = manager.requestPopup(for: SSPPopUpSizes.medium)
+            print(result.enumDetails)
+        }
+        
     }
     
+    
+    // MARK: Banner Add Methods
+    
     func addReceived(forBanner adItem: SSPBannerAd) {
-        if selection == 0 {
+        if adItem.addId == 0 {
             adItem.show(in: bannerContainerView)
             return
         }
         adItem.show(in: bannerContainerView2)
     }
     
-    func addWillAppear(forBanner adItem: SSPBannerAd) {
+    func failedToLoadAdd(forBanner adItem: SSPBannerAd, reason: SSPResult) {
         
     }
     
+    
+    
+    
+    // MARK: PopUp Add Methods
     func addReceived(forPopUp adItem: SSPPopUpAd) {
-        popUpBackgroundView.isHidden = false
         adItem.show(in: popUpContainerView)
     }
     
-    func addWillAppear(forPopUp adItem: SSPPopUpAd){}
+    func failedToLoadAdd(forPopUp adItem: SSPPopUpAd, reason: SSPResult) {
+        
+    }
+    
+    func addWillAppear(forPopUp adItem: SSPPopUpAd){
+        popUpBackgroundView.isHidden = false
+    }
+    
     func closePopUp(forPopUp adItem: SSPPopUpAd){
         popUpBackgroundView.isHidden = true
     }

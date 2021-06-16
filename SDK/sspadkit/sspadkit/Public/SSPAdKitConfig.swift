@@ -7,28 +7,7 @@
 
 import Foundation
 import UIKit
-import WebKit
-import SystemConfiguration
-import AppTrackingTransparency
-import AdSupport
 
-public enum GenderTypes : String {
-    case unknown =  ""
-    case male = "M"
-    case female = "F"
-}
-
-
-public class SSPAdContainerSize {
-    
-    public var adUnitWidth : Int
-    public var adUnitHeight : Int
-    
-    public init(_adUnitWidth: Int, _adUnitHeight: Int) {
-        self.adUnitWidth = _adUnitWidth
-        self.adUnitHeight = _adUnitHeight
-    }
-}
 
 protocol SSPAdKitConfigProtocol  {
     func setDevicePropertiesDefault()
@@ -51,21 +30,30 @@ public class SSPAdKitConfig : SSPAdKitConfigProtocol{
     public var customdata:[String:String] = [:]
     public var applicationVersion : String?
     public var language : String?
-    public var shouldAskForIDFA = false
     
     
     // mandatory properties - source: developer
-    public var inventoryID : String
-    public var adUnitID : String
+    public let inventoryID : String
+    public let adUnitID : String
     public var adUnitSize : SSPAdContainerSize?
+    
+    public var shouldAskForIDFA = false
+    public var addTimeOutInterval : Int?
     
     public var interstitial = 0
 
-    
     public init(_inventoryID: String, _adUnitID: String) {
         self.inventoryID = _inventoryID
         self.adUnitID = _adUnitID
         self.setDevicePropertiesDefault()
+    }
+    
+    public var isInventoryIDValid : Bool {
+        if (inventoryID == "") { return false } else { return true}
+    }
+    
+    public var isAdUnitIDValid : Bool {
+        if (inventoryID == "") { return false } else { return true}
     }
     
     public func getBannerParams() -> [String:Any] {
