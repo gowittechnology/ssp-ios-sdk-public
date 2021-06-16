@@ -2,15 +2,20 @@ PODS:
   - sspadkit (1.0.0)
 
 DEPENDENCIES:
-  - sspadkit (from `../../SDK/sspadkit/`)
+  - sspadkit (from `https://github.com/gowittechnology/ssp-ios-sdk-public.git`)
 
 EXTERNAL SOURCES:
   sspadkit:
-    :path: "../../SDK/sspadkit/"
+    :git: https://github.com/gowittechnology/ssp-ios-sdk-public.git
+
+CHECKOUT OPTIONS:
+  sspadkit:
+    :commit: 93b5d4b5308f9b73ecfca643cfac560c05d43841
+    :git: https://github.com/gowittechnology/ssp-ios-sdk-public.git
 
 SPEC CHECKSUMS:
-  sspadkit: de9f50e3a984772effd5f3048d24abb1263d00b5
+  sspadkit: 03ab4be78e221056f2209c61a7d6cd7c9f84a8ac
 
-PODFILE CHECKSUM: da389c739d16db567fea021bab81a9c84f36db2f
+PODFILE CHECKSUM: 403da420a80515a8c40a291a0dbd5a714466e29d
 
 COCOAPODS: 1.10.1

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "banner and popup ads",
   "description": "Secure, reliable ads framework for ios apps",
-  "homepage": "https://github.com/dgsygtozcelik/goWit",
+  "homepage": "https://github.com/gowittechnology/ssp-ios-sdk-public",
   "license": {
     "type": "MIT"
   },
@@ -11,7 +11,7 @@
     "Dogus Yigit Ozcelik": "dogusyigitozcelik@gmail.com"
   },
   "source": {
-    "git": "https://github.com/dgsygtozcelik/goWit.git",
+    "git": "https://github.com/gowittechnology/ssp-ios-sdk-public.git",
     "tag": "1.0.0"
   },
   "frameworks": "WebKit",
