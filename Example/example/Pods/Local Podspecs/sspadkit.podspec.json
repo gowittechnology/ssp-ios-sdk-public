@@ -5,21 +5,22 @@
   "description": "Secure, reliable ads framework for ios apps",
   "homepage": "https://github.com/gowittechnology/ssp-ios-sdk-public",
   "license": {
-    "type": "MIT"
+    "type": "MIT",
+    "file": "sspadkit/license"
   },
   "authors": {
     "Dogus Yigit Ozcelik": "dogusyigitozcelik@gmail.com"
   },
-  "source": {
-    "git": "https://github.com/gowittechnology/ssp-ios-sdk-public.git",
-    "tag": "1.0.0"
-  },
-  "frameworks": "WebKit",
-  "swift_versions": "5.0",
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "sspadkit/**/*.{swift}",
-  "exclude_files": "Classes/Exclude",
+  "ios": {
+    "vendored_frameworks": "sspadkit/sspadkit.xcframework"
+  },
+  "source": {
+    "http": "https://github.com/gowittechnology/ssp-ios-sdk-public/raw/1.0.0/build/sspadkit.zip"
+  },
+  "frameworks": "WebKit",
+  "swift_versions": "5.0",
   "swift_version": "5.0"
 }

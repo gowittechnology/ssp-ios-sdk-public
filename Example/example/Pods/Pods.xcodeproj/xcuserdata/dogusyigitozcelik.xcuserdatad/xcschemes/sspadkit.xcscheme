@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15CC2AC99D4E448C8466CFC66E2A83CE"
-               BuildableName = "sspadkit.framework"
+               BuildableName = "sspadkit"
                BlueprintName = "sspadkit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
