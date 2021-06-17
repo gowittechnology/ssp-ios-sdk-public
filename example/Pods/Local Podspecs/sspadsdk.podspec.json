@@ -14,7 +14,8 @@
     "ios": "10.0"
   },
   "source": {
-    "path": "."
+    "git": "https://github.com/gowittechnology/ssp-ios-sdk-public.git",
+    "tag": "0.0.1"
   },
   "source_files": "sspadsdk",
   "exclude_files": "Classes/Exclude",

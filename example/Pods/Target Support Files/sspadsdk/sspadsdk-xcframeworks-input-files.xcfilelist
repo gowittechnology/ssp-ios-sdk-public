@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/sspadsdk/sspadsdk-xcframeworks.sh
-${PODS_ROOT}/../../Frameworks/sspadkit.xcframework
+${PODS_ROOT}/sspadsdk/Frameworks/sspadkit.xcframework

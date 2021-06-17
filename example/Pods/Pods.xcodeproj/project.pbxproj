@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		27E34921B935876C8E8439952CD2D596 /* Pods-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 366C81F63378C4CCA862A6E36F3D0BCF /* Pods-example-dummy.m */; };
-		2BADCA5FABFAABD276DEC4C622EF299D /* sspadsdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A23E12199D782D57584D4EDA5FE3C90 /* sspadsdk-dummy.m */; };
+		2BADCA5FABFAABD276DEC4C622EF299D /* sspadsdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E201D304D666EF09B6B6B6BD568310C3 /* sspadsdk-dummy.m */; };
 		4F6A427F0F657A9AB34CAD27C4979ED0 /* Pods-example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9B306B206F90F2B9FEFECBB5C3CB65 /* Pods-example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76E80953C3542D5A83F36C2AC0982AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A27AC517BAA9CD602DEB602EB03C355A /* sspadsdk.h in Headers */ = {isa = PBXBuildFile; fileRef = B051A9150D0FD022BF7388B126228644 /* sspadsdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB87B4B56734A220A06E9909EAB6BE9A /* sspadsdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D327E9FACD49909FE3F43BC4FBC8FA9F /* sspadsdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8BDF5EBB6AA2FDA9AE3D8C65EB4A9F6 /* SSPAdSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424B630DBD386B9AE682BBDE71BBD449 /* SSPAdSDK.swift */; };
+		A27AC517BAA9CD602DEB602EB03C355A /* sspadsdk.h in Headers */ = {isa = PBXBuildFile; fileRef = EC360ED760E067605C0390A8D3B525CC /* sspadsdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB87B4B56734A220A06E9909EAB6BE9A /* sspadsdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EDC871A431893286B26BBFA9621657 /* sspadsdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8BDF5EBB6AA2FDA9AE3D8C65EB4A9F6 /* SSPAdSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356F9F2BC0C7C639A0DB61866DE6A8E /* SSPAdSDK.swift */; };
 		FD308BC38CE0116A1E720B0DF363D6B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2DF7A346DEDCDF766AA0FAD54EF3E8B9 /* PBXContainerItemProxy */ = {
+		B7AA73880D7AB7AAB17EAC3C14671668 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,30 +28,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02615C129B5BA3BA2354343D585BDD15 /* sspadsdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = sspadsdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		03BCB6AD75F30627FA0906B35AD74A05 /* sspadsdk-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "sspadsdk-xcframeworks.sh"; sourceTree = "<group>"; };
-		05D0C1EF9CE74778DC576461610C442F /* sspadsdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sspadsdk.debug.xcconfig; sourceTree = "<group>"; };
-		065E22DF9B2D2B6717D14B822988267E /* sspadsdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "sspadsdk-Info.plist"; sourceTree = "<group>"; };
-		1A23E12199D782D57584D4EDA5FE3C90 /* sspadsdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sspadsdk-dummy.m"; sourceTree = "<group>"; };
+		22EDC871A431893286B26BBFA9621657 /* sspadsdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sspadsdk-umbrella.h"; sourceTree = "<group>"; };
 		2F953E63C99E3C33059E888CEA88AC4B /* Pods-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-example-acknowledgements.plist"; sourceTree = "<group>"; };
 		366C81F63378C4CCA862A6E36F3D0BCF /* Pods-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-example-dummy.m"; sourceTree = "<group>"; };
-		424B630DBD386B9AE682BBDE71BBD449 /* SSPAdSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSPAdSDK.swift; path = sspadsdk/SSPAdSDK.swift; sourceTree = "<group>"; };
+		4793B5DECFE5EC1D07A264EC6A3590A6 /* sspadkit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = sspadkit.xcframework; path = Frameworks/sspadkit.xcframework; sourceTree = "<group>"; };
 		4ED2EAEC295A5C36F812B9C3CFE0E818 /* Pods-example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-example-Info.plist"; sourceTree = "<group>"; };
 		60708C5F2CB57FC80C7CA37A5E177499 /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		822222CB362187E951553663D432D651 /* sspadsdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sspadsdk.debug.xcconfig; sourceTree = "<group>"; };
 		8C0744503EFAEDCF47BFA6CF4FA15059 /* Pods-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8DC343797FE6CDCA192017C12DAE8029 /* Pods-example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-example.modulemap"; sourceTree = "<group>"; };
-		92508D797A08F43B682CC59A13129246 /* sspadsdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = sspadsdk.modulemap; sourceTree = "<group>"; };
+		995A807E6C85B8847454B06B38704C5B /* sspadsdk-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "sspadsdk-xcframeworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC77DC6C4DF81CC735BA43B667DA389 /* sspadsdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sspadsdk-prefix.pch"; sourceTree = "<group>"; };
 		A9E71BBE73AC44290BD2329F0BA1B094 /* Pods-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-example-frameworks.sh"; sourceTree = "<group>"; };
-		B051A9150D0FD022BF7388B126228644 /* sspadsdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sspadsdk.h; path = sspadsdk/sspadsdk.h; sourceTree = "<group>"; };
-		BE54E4B0C6A1B19DC1BDB9B9F1FE6888 /* sspadkit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = sspadkit.xcframework; path = Frameworks/sspadkit.xcframework; sourceTree = "<group>"; };
+		B3B22879B97B8F3A5A498AE20C703446 /* sspadsdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "sspadsdk-Info.plist"; sourceTree = "<group>"; };
 		BF9B306B206F90F2B9FEFECBB5C3CB65 /* Pods-example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-example-umbrella.h"; sourceTree = "<group>"; };
-		D327E9FACD49909FE3F43BC4FBC8FA9F /* sspadsdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sspadsdk-umbrella.h"; sourceTree = "<group>"; };
-		D4D11FE9FF9A9B93D275E9490FB79BAD /* sspadsdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sspadsdk-prefix.pch"; sourceTree = "<group>"; };
+		D2CE1570F72B604899FA01A45D5F9731 /* sspadsdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = sspadsdk.modulemap; sourceTree = "<group>"; };
+		E201D304D666EF09B6B6B6BD568310C3 /* sspadsdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sspadsdk-dummy.m"; sourceTree = "<group>"; };
+		E356F9F2BC0C7C639A0DB61866DE6A8E /* SSPAdSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSPAdSDK.swift; path = sspadsdk/SSPAdSDK.swift; sourceTree = "<group>"; };
 		EA0286BF8ACA479B4C0B84546357AA4D /* sspadsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sspadsdk.framework; path = sspadsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF563415B8C9D549C2CC7AB87BE33F46 /* sspadsdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sspadsdk.release.xcconfig; sourceTree = "<group>"; };
+		EC360ED760E067605C0390A8D3B525CC /* sspadsdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sspadsdk.h; path = sspadsdk/sspadsdk.h; sourceTree = "<group>"; };
 		F199D42AE3B25C06D9BEBB595138E0BD /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-example.release.xcconfig"; sourceTree = "<group>"; };
+		F466F7ACF777BF6D311F2B651A19702B /* sspadsdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sspadsdk.release.xcconfig; sourceTree = "<group>"; };
 		FE738AB7B951E639221DD37AAF252244 /* Pods_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_example.framework; path = "Pods-example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,28 +83,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		08C4A6BB3C53F5FDCFC80EBAC39B2DE9 /* Pod */ = {
+		13326FF58CBE883378CA92E5C35E0479 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				02615C129B5BA3BA2354343D585BDD15 /* sspadsdk.podspec */,
+				4793B5DECFE5EC1D07A264EC6A3590A6 /* sspadkit.xcframework */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		24B0A4416D52848E7194BAE61E552168 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				92508D797A08F43B682CC59A13129246 /* sspadsdk.modulemap */,
-				1A23E12199D782D57584D4EDA5FE3C90 /* sspadsdk-dummy.m */,
-				065E22DF9B2D2B6717D14B822988267E /* sspadsdk-Info.plist */,
-				D4D11FE9FF9A9B93D275E9490FB79BAD /* sspadsdk-prefix.pch */,
-				D327E9FACD49909FE3F43BC4FBC8FA9F /* sspadsdk-umbrella.h */,
-				03BCB6AD75F30627FA0906B35AD74A05 /* sspadsdk-xcframeworks.sh */,
-				05D0C1EF9CE74778DC576461610C442F /* sspadsdk.debug.xcconfig */,
-				EF563415B8C9D549C2CC7AB87BE33F46 /* sspadsdk.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "example/Pods/Target Support Files/sspadsdk";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2BCF16978EC2F0B687CAFB8E056ED592 /* Targets Support Files */ = {
@@ -141,25 +124,48 @@
 			path = "Target Support Files/Pods-example";
 			sourceTree = "<group>";
 		};
-		6B87D2537C94FD4568C0FEBE81B1009B /* sspadsdk */ = {
+		7F2B45F7A41090FEB7A3A337DE7896C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B051A9150D0FD022BF7388B126228644 /* sspadsdk.h */,
-				424B630DBD386B9AE682BBDE71BBD449 /* SSPAdSDK.swift */,
-				E57FC6D27E83A1184EBF550628831A8D /* Frameworks */,
-				08C4A6BB3C53F5FDCFC80EBAC39B2DE9 /* Pod */,
-				24B0A4416D52848E7194BAE61E552168 /* Support Files */,
+				D2CE1570F72B604899FA01A45D5F9731 /* sspadsdk.modulemap */,
+				E201D304D666EF09B6B6B6BD568310C3 /* sspadsdk-dummy.m */,
+				B3B22879B97B8F3A5A498AE20C703446 /* sspadsdk-Info.plist */,
+				9DC77DC6C4DF81CC735BA43B667DA389 /* sspadsdk-prefix.pch */,
+				22EDC871A431893286B26BBFA9621657 /* sspadsdk-umbrella.h */,
+				995A807E6C85B8847454B06B38704C5B /* sspadsdk-xcframeworks.sh */,
+				822222CB362187E951553663D432D651 /* sspadsdk.debug.xcconfig */,
+				F466F7ACF777BF6D311F2B651A19702B /* sspadsdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/sspadsdk";
+			sourceTree = "<group>";
+		};
+		9B6B60620E409F99911A541E7895083F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A21B547E76B6EBDD669D616BDCE46FEA /* sspadsdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21B547E76B6EBDD669D616BDCE46FEA /* sspadsdk */ = {
+			isa = PBXGroup;
+			children = (
+				EC360ED760E067605C0390A8D3B525CC /* sspadsdk.h */,
+				E356F9F2BC0C7C639A0DB61866DE6A8E /* SSPAdSDK.swift */,
+				13326FF58CBE883378CA92E5C35E0479 /* Frameworks */,
+				7F2B45F7A41090FEB7A3A337DE7896C1 /* Support Files */,
 			);
 			name = sspadsdk;
-			path = ../..;
+			path = sspadsdk;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F9CE859D656840BA1188FF6D2E007E23 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9B6B60620E409F99911A541E7895083F /* Pods */,
 				02D30E74B14FAC84EC7F5DFCECE2C995 /* Products */,
 				2BCF16978EC2F0B687CAFB8E056ED592 /* Targets Support Files */,
 			);
@@ -171,22 +177,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E57FC6D27E83A1184EBF550628831A8D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BE54E4B0C6A1B19DC1BDB9B9F1FE6888 /* sspadkit.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F9CE859D656840BA1188FF6D2E007E23 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6B87D2537C94FD4568C0FEBE81B1009B /* sspadsdk */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +233,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B8DFE128AEDF0022D3CB2BA63D66E8AF /* PBXTargetDependency */,
+				98C7CD6AFF57F8A5C999C3F23D6ECE74 /* PBXTargetDependency */,
 			);
 			name = "Pods-example";
 			productName = "Pods-example";
@@ -336,18 +326,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B8DFE128AEDF0022D3CB2BA63D66E8AF /* PBXTargetDependency */ = {
+		98C7CD6AFF57F8A5C999C3F23D6ECE74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sspadsdk;
 			target = AD4A27791F8A92AC8745E0A06700666E /* sspadsdk */;
-			targetProxy = 2DF7A346DEDCDF766AA0FAD54EF3E8B9 /* PBXContainerItemProxy */;
+			targetProxy = B7AA73880D7AB7AAB17EAC3C14671668 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		16C60BD03728A188FF561398BB1027BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF563415B8C9D549C2CC7AB87BE33F46 /* sspadsdk.release.xcconfig */;
+			baseConfigurationReference = F466F7ACF777BF6D311F2B651A19702B /* sspadsdk.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -586,7 +576,7 @@
 		};
 		E6FC665CE37F01D5C844558B84720122 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05D0C1EF9CE74778DC576461610C442F /* sspadsdk.debug.xcconfig */;
+			baseConfigurationReference = 822222CB362187E951553663D432D651 /* sspadsdk.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
