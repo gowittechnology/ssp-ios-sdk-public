@@ -19,9 +19,10 @@ Pod::Spec.new do |spec|
 
 
   spec.author             = { "Dogus Yigit Ozcelik" => "dogusyigitozcelik@gmail.com" }
-  spec.license           =  { :type => "MIT", :file => "license" }
+  spec.license           =  { :type => "MIT", :text => "MIT License" }
 
 
+  spec.platform          = :ios
   spec.source            = { :http => "https://github.com/gowittechnology/ssp-ios-sdk-public/raw/1.0.0/build/sspadkit.xcframework.zip" }
   
   spec.ios.deployment_target = '10.0'
