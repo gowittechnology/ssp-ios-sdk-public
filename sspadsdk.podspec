@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "sspadsdk"
-  spec.version      = "0.0.2"
+  spec.name         = "ssp-ios-sdk-public"
+  spec.version      = "0.0.3"
   spec.summary      = "banner and popup for ssp ads. "
 
   # This description is used to generate tags and improve search results.
