@@ -17,7 +17,7 @@ Bu kılavuz AdPlus iOS SDK kullanımına ait geliştiricilerin ihtiyaç duyacağ
     - [Genel Bilgiler](#info-banner)
     - [Reklam İsteği Oluşturma](#banner-parameters)
     - [Reklamların Gösterilmesi ve Geri bildirim methodları](#banner-parameters)
-- [Gereklilikler](#debugging)
+- [Gereklilikler](#req)
 
 <a name="setup"/>
 
@@ -64,3 +64,11 @@ kullanılacak.
 let config = SSPAdKitConfig(_inventoryID: "XXXXXXXXX", _adUnitID: "XXXXXXXXX")
 let adManager = SSPAdKit.init(_config: config)
 ```
+
+<a name="#req"/>
+
+# Gereklilikler
+
+- iOS 10.0 ve üzeri
+- Xcode 12.5 ve üzeri
+- Swift 5
