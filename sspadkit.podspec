@@ -24,15 +24,17 @@ Pod::Spec.new do |spec|
 
   
   spec.ios.deployment_target = '10.0'
-  spec.ios.vendored_frameworks = 'build/sspadkit.xcframework'
+  spec.ios.vendored_frameworks = 'sspadkit.xcframework'
 
-  spec.source            = { :git => "https://github.com/gowittechnology/ssp-ios-sdk-public.git", :tag => spec.version.to_s }
+  spec.source            = { :http => "https://github.com/gowittechnology/ssp-ios-sdk-public/raw/1.0.0/build/sspadkit.xcframework.zip" }
+  
+
 
   spec.framework      = 'WebKit'
   spec.swift_version       = '5.0'
-  spec.source_files  = "sspadkit/"
+  #spec.source_files  = "sspadkit/"
   #spec.exclude_files = "sspadkit/Private/*.{swift}"
 
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
 
 end
