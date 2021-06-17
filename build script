@@ -1,0 +1,28 @@
+xcodebuild archive \
+-scheme sspadkit \
+-configuration Release \
+-destination 'generic/platform=iOS' \
+-archivePath './build/sspadkit.framework-iphoneos.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+xcodebuild archive \
+-scheme sspadkit \
+-configuration Release \
+-destination 'generic/platform=iOS Simulator' \
+-archivePath './build/sspadkit.framework-iphonesimulator.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+xcodebuild archive \
+-scheme sspadkit \
+-configuration Release \
+-destination 'platform=macOS,arch=x86_64,variant=Mac Catalyst' \
+-archivePath './build/sspadkit.framework-catalyst.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+xcodebuild -create-xcframework \
+-framework './build/sspadkit.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/sspadkit.framework' \
+-framework './build/sspadkit.framework-iphoneos.xcarchive/Products/Library/Frameworks/sspadkit.framework' \
+-output './build/sspadkit.xcframework'
