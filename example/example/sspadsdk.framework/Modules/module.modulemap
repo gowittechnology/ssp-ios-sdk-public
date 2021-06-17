@@ -1,0 +1,11 @@
+framework module sspadsdk {
+  umbrella header "sspadsdk.h"
+
+  export *
+  module * { export * }
+}
+
+module sspadsdk.Swift {
+    header "sspadsdk-Swift.h"
+    requires objc
+}
