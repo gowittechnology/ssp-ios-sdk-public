@@ -12,23 +12,20 @@ Pod::Spec.new do |spec|
   spec.name         = "sspadkit"
   spec.version      = "1.0.0"
   spec.summary      = "banner and popup ads"
+  spec.homepage     = "https://github.com/gowittechnology/ssp-ios-sdk-public"
   spec.description  = <<-DESC
                        Secure, reliable ads framework for ios apps
                        DESC
 
-  spec.homepage     = "https://github.com/gowittechnology/ssp-ios-sdk-public"
-
-  spec.license           =  { :type => "MIT", :file => "license" }
 
   spec.author             = { "Dogus Yigit Ozcelik" => "dogusyigitozcelik@gmail.com" }
+  spec.license           =  { :type => "MIT", :file => "license" }
 
-  
-  spec.ios.deployment_target = '10.0'
-  spec.ios.vendored_frameworks = 'sspadkit.xcframework'
 
   spec.source            = { :http => "https://github.com/gowittechnology/ssp-ios-sdk-public/raw/1.0.0/build/sspadkit.xcframework.zip" }
   
-
+  spec.ios.deployment_target = '10.0'
+  spec.ios.vendored_frameworks = 'sspadkit.xcframework'
 
   spec.framework      = 'WebKit'
   spec.swift_version       = '5.0'
