@@ -1,0 +1,16 @@
+PODS:
+  - sspadsdk (0.0.1)
+
+DEPENDENCIES:
+  - sspadsdk (from `../`)
+
+EXTERNAL SOURCES:
+  sspadsdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  sspadsdk: 014194b137a24083d476cca45fd697f8ae98493f
+
+PODFILE CHECKSUM: f5240f241af30c174e8ae132629ded7bf5ff228c
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module sspadsdk {
+  umbrella header "sspadsdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
