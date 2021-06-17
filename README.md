@@ -53,9 +53,9 @@ import sspadkit
 
 SDK yi yukarıda belirtilen satırları projenize ekledikten sonra kullanmaya başlayabilirsiniz.
 
-<a name="etup-the-sdk"/>
+<a name="#setup-the-sdk"/>
 
-## SDK'nın yüklenmesi(#setup-the-sdk)
+## SDK'nın yüklenmesi
 
 SDK nın modüllerine erişmek için ilk önce InventoryID'niz ve AdUnitID'niz ile konfigürasyon dosyanızı oluşturmalısınız. Ardından SSPAdkit nesnemizi oluşturnak için 
 kullanılacak. 
