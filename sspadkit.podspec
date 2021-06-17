@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 
 
   spec.platform          = :ios
-  spec.source            = { :http => "https://github.com/gowittechnology/ssp-ios-sdk-public/raw/1.0.0/build/sspadkit.xcframework.zip" }
+  spec.source            = { :http => "https://github.com/gowittechnology/ssp-ios-sdk-public/sspadkit.xcframework.zip" }
   
   spec.ios.deployment_target = '10.0'
   spec.ios.vendored_frameworks = 'sspadkit.xcframework'
