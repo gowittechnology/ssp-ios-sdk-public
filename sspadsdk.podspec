@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "sspadsdk"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "banner and popup for ssp ads. "
 
   # This description is used to generate tags and improve search results.
