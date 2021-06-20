@@ -216,6 +216,14 @@ Reklam isteğiniz sonucunda, gösterilecek reklam olması halinde
 ```
 methodu çağırılacaktır.
 
+Bu aşamada reklamı göstermek istedğiniz **UIView** objenizi SDK ya göndermeniz gerekmektedir. Bu işlem için bu kod örneği aşşağıdaki gibidir.
+
+```swift
+    func addReceived(forPopUp adItem: SSPPopUpAd) {
+        adItem.show(in: popUpContainerView)
+    }
+```
+
 Reklam isteğiniz sonucunda ya da reklam gösterilmesi sırasında bir hata oluşması halinde
 
 ```swift
