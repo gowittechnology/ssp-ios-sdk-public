@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "sspadsdk", "sspadsdk/Samples"
+  spec.source_files  = "sspadsdk"
   spec.exclude_files = "Classes/Exclude"
 
   spec.ios.vendored_frameworks = "Frameworks/sspadkit.xcframework"
@@ -115,6 +115,7 @@ Pod::Spec.new do |spec|
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
+  spec.preserve_paths = "sspadsdk/Samples" 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Link your library with frameworks, or libraries. Libraries do not include
