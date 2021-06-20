@@ -1,2 +1,2 @@
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sspadsdk.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ssp_ios_sdk_public.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sspadkit.framework

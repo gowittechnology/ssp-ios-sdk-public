@@ -1,0 +1,6 @@
+framework module ssp_ios_sdk_public {
+  umbrella header "ssp-ios-sdk-public-umbrella.h"
+
+  export *
+  module * { export * }
+}

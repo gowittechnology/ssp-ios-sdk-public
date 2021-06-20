@@ -12,6 +12,6 @@
 
 #import "sspadsdk.h"
 
-FOUNDATION_EXPORT double sspadsdkVersionNumber;
-FOUNDATION_EXPORT const unsigned char sspadsdkVersionString[];
+FOUNDATION_EXPORT double ssp_ios_sdk_publicVersionNumber;
+FOUNDATION_EXPORT const unsigned char ssp_ios_sdk_publicVersionString[];
 

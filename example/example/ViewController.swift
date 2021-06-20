@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import sspadsdk
 import sspadkit
 
 class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
