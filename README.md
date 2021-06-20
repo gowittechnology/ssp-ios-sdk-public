@@ -250,3 +250,7 @@ methodu çağırılacaktır.
 - iOS 10.0 ve üzeri
 - Xcode 12.5 ve üzeri
 - Swift 5
+
+[Örnek Uygulama](https://github.com/gowittechnology/ssp-ios-sdk-public/tree/main/example)
+[Örnek Kod Dosyaları](https://github.com/gowittechnology/ssp-ios-sdk-public/tree/main/sspadsdk/Samples)
+ 
