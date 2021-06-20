@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ssp-ios-sdk-public"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "banner and popup for ssp ads. "
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "sspadsdk"
+  spec.source_files  = "sspadsdk", "sspadkit/Samples"
   spec.exclude_files = "Classes/Exclude"
 
   spec.ios.vendored_frameworks = "Frameworks/sspadkit.xcframework"

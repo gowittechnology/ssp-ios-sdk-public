@@ -92,10 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				8D259577267B183F00935912 /* SSPAdKitSamples.swift */,
+				8D259578267B183F00935912 /* SSPAdKitEnumSamples.swift */,
 				8D259575267B183F00935912 /* SSPAdKitConfigSamples.swift */,
 				8D259576267B183F00935912 /* SSPBannerAdSamples.swift */,
 				8D259579267B183F00935912 /* SSPPopUpAd.swift */,
-				8D259578267B183F00935912 /* SSPAdKitEnumSamples.swift */,
 			);
 			path = Samples;
 			sourceTree = "<group>";

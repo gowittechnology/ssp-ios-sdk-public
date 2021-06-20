@@ -9,7 +9,7 @@ target 'example' do
 
   #pod 'sspadsdk', :path => '../' 
 
-  pod 'sspadsdk', :git => 'https://github.com/gowittechnology/ssp-ios-sdk-public.git', :tag => '0.0.1' 
+  pod 'ssp-ios-sdk-public'
 
   
 end
