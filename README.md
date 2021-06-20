@@ -47,7 +47,6 @@ komutunu çalıştırdığınızda SDK yüklenecektir.
 
 
 ```swift
-import sspadsdk
 import sspadkit
 ```
 
