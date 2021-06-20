@@ -7,7 +7,7 @@ target 'example' do
 
   # Pods for example
 
-  #pod 'sspadsdk', :path => '../' 
+  #pod 'ssp-ios-sdk-public', :path => '../' 
 
   pod 'ssp-ios-sdk-public'
 

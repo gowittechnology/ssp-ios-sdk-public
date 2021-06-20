@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ssp-ios-sdk-public"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "banner and popup for ssp ads. "
 
   # This description is used to generate tags and improve search results.
@@ -111,11 +111,11 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-
+  spec.resources = "sspadsdk/Samples"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-  spec.preserve_paths = "sspadsdk/Samples" 
+  #spec.preserve_paths = "sspadsdk/Samples" 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Link your library with frameworks, or libraries. Libraries do not include
