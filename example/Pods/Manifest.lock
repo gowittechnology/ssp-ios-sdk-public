@@ -1,16 +1,16 @@
 PODS:
-  - ssp-ios-sdk-public (0.0.5)
+  - ssp-ios-sdk-public (0.0.6)
 
 DEPENDENCIES:
-  - ssp-ios-sdk-public (from `../`)
+  - ssp-ios-sdk-public (= 0.0.6)
 
-EXTERNAL SOURCES:
-  ssp-ios-sdk-public:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - ssp-ios-sdk-public
 
 SPEC CHECKSUMS:
-  ssp-ios-sdk-public: 167432d6b51c4aa5f73e675f9d6b0d7eca847625
+  ssp-ios-sdk-public: 3df22ee4ba772bd6c8dda070bad502bafe047329
 
-PODFILE CHECKSUM: f6d0f892de80b7b48d3e4999df844c999d2e0f3f
+PODFILE CHECKSUM: 92e2dc821f7f29ee82791ca66400fdf08aeb6cb8
 
 COCOAPODS: 1.10.1

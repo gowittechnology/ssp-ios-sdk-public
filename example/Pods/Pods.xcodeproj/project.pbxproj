@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15FB4A2A664930BB95E86C776018B16D /* ssp-ios-sdk-public-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07CDD52701A05AFA9B6DFFE0C523D5 /* ssp-ios-sdk-public-dummy.m */; };
+		15FB4A2A664930BB95E86C776018B16D /* ssp-ios-sdk-public-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B53DDF14BB00430533E23D493924FE /* ssp-ios-sdk-public-dummy.m */; };
 		20B4B22A5E7199E6534F34EFAECD6B11 /* Pods-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 366C81F63378C4CCA862A6E36F3D0BCF /* Pods-example-dummy.m */; };
-		3745A52A2609B4B5761DC7BDF54C1CB2 /* ssp-ios-sdk-public-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3CA9EDFB768183793BC6E88485A166 /* ssp-ios-sdk-public-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3745A52A2609B4B5761DC7BDF54C1CB2 /* ssp-ios-sdk-public-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B103CD7BB5B7DBE113D90CAFCCB06D0E /* ssp-ios-sdk-public-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C422A6CE465AADAC2689B91B8BF1889 /* Pods-example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9B306B206F90F2B9FEFECBB5C3CB65 /* Pods-example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91D837C84EBBFF1451E93954ED3D1158 /* sspadsdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 954A940784660800577A94D645239267 /* sspadsdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D837C84EBBFF1451E93954ED3D1158 /* sspadsdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 029801B925A3B5E00DA3F81A7744088D /* sspadsdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8641FB403D16B6D48D68CA9B42F7907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E5EF9A4FC9FDF80851A220803D8DA207 /* SSPAdSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F557F425303C3B8C41D7CE54D3CFF /* SSPAdSDK.swift */; };
+		E5EF9A4FC9FDF80851A220803D8DA207 /* SSPAdSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C37ABB28D93ACCEA93A6BBEA4F6314E /* SSPAdSDK.swift */; };
 		E83834BCBB5D0DA798A53D8C1F1B19A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FB256999D0367F030CCB5449B91A5D21 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA531837FA1DC147FB5108AE4FADCD /* Samples */; };
+		FB256999D0367F030CCB5449B91A5D21 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = E0AF5CE04C57421813E3D8080CC3DFCC /* Samples */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C8326E6721C8D8351FAC2E2DF4CF57D4 /* PBXContainerItemProxy */ = {
+		312EDA0FEE7C25453CA0940189069B32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,32 +29,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D2F557F425303C3B8C41D7CE54D3CFF /* SSPAdSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSPAdSDK.swift; path = sspadsdk/SSPAdSDK.swift; sourceTree = "<group>"; };
-		1F9D3E4A31001F995BF1B4E45A31D44C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2C516A89D5A696BC6C46AD6C27476CE0 /* ssp-ios-sdk-public.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "ssp-ios-sdk-public.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		029801B925A3B5E00DA3F81A7744088D /* sspadsdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sspadsdk.h; path = sspadsdk/sspadsdk.h; sourceTree = "<group>"; };
+		0389B55DF2F90F573BA5C998624428EE /* ssp-ios-sdk-public-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ssp-ios-sdk-public-xcframeworks.sh"; sourceTree = "<group>"; };
+		0C37ABB28D93ACCEA93A6BBEA4F6314E /* SSPAdSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSPAdSDK.swift; path = sspadsdk/SSPAdSDK.swift; sourceTree = "<group>"; };
+		25590047CA60366A0EF9D9CC7EA8E35E /* ssp-ios-sdk-public-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ssp-ios-sdk-public-Info.plist"; sourceTree = "<group>"; };
 		2F953E63C99E3C33059E888CEA88AC4B /* Pods-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-example-acknowledgements.plist"; sourceTree = "<group>"; };
-		35BE8606C65353D062741854ABF52D11 /* ssp-ios-sdk-public-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ssp-ios-sdk-public-xcframeworks.sh"; sourceTree = "<group>"; };
 		366C81F63378C4CCA862A6E36F3D0BCF /* Pods-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-example-dummy.m"; sourceTree = "<group>"; };
-		3B3CA9EDFB768183793BC6E88485A166 /* ssp-ios-sdk-public-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ssp-ios-sdk-public-umbrella.h"; sourceTree = "<group>"; };
-		4DEA531837FA1DC147FB5108AE4FADCD /* Samples */ = {isa = PBXFileReference; includeInIndex = 1; name = Samples; path = sspadsdk/Samples; sourceTree = "<group>"; };
+		42B53DDF14BB00430533E23D493924FE /* ssp-ios-sdk-public-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ssp-ios-sdk-public-dummy.m"; sourceTree = "<group>"; };
+		46424B78663C71A6E2FA03666F1BDB11 /* ssp-ios-sdk-public-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ssp-ios-sdk-public-prefix.pch"; sourceTree = "<group>"; };
+		4D99A98A39A35302D33E6C91B4744F08 /* ssp-ios-sdk-public.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ssp-ios-sdk-public.debug.xcconfig"; sourceTree = "<group>"; };
 		4ED2EAEC295A5C36F812B9C3CFE0E818 /* Pods-example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-example-Info.plist"; sourceTree = "<group>"; };
-		5A07CDD52701A05AFA9B6DFFE0C523D5 /* ssp-ios-sdk-public-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ssp-ios-sdk-public-dummy.m"; sourceTree = "<group>"; };
+		5B41E8EE01056B9E66EE8091216CD0F9 /* ssp-ios-sdk-public.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ssp-ios-sdk-public.release.xcconfig"; sourceTree = "<group>"; };
 		60708C5F2CB57FC80C7CA37A5E177499 /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
+		625E9E932460E0BD42F0C4BEE7091223 /* sspadkit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = sspadkit.xcframework; path = Frameworks/sspadkit.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		89D014E4AC1E7D897BCFA48203ED3953 /* ssp-ios-sdk-public-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ssp-ios-sdk-public-prefix.pch"; sourceTree = "<group>"; };
+		825CA72473F3C9542F18106EF2134464 /* ssp-ios-sdk-public.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ssp-ios-sdk-public.modulemap"; sourceTree = "<group>"; };
 		8C0744503EFAEDCF47BFA6CF4FA15059 /* Pods-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8DC343797FE6CDCA192017C12DAE8029 /* Pods-example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-example.modulemap"; sourceTree = "<group>"; };
-		954A940784660800577A94D645239267 /* sspadsdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sspadsdk.h; path = sspadsdk/sspadsdk.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E3A4D2172E242EA4F7CB88D7FA7E524 /* sspadkit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = sspadkit.xcframework; path = Frameworks/sspadkit.xcframework; sourceTree = "<group>"; };
 		A9E71BBE73AC44290BD2329F0BA1B094 /* Pods-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-example-frameworks.sh"; sourceTree = "<group>"; };
-		BE06A006F8583754D145E4A0A57B4F27 /* ssp-ios-sdk-public-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ssp-ios-sdk-public-Info.plist"; sourceTree = "<group>"; };
-		BED9C740A810B04B4F794E9CEB6041A5 /* ssp-ios-sdk-public.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ssp-ios-sdk-public.release.xcconfig"; sourceTree = "<group>"; };
+		B103CD7BB5B7DBE113D90CAFCCB06D0E /* ssp-ios-sdk-public-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ssp-ios-sdk-public-umbrella.h"; sourceTree = "<group>"; };
 		BF9B306B206F90F2B9FEFECBB5C3CB65 /* Pods-example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-example-umbrella.h"; sourceTree = "<group>"; };
-		C6EEF0547865D708FBF6D06AF02018EF /* ssp-ios-sdk-public.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ssp-ios-sdk-public.debug.xcconfig"; sourceTree = "<group>"; };
 		CDAB4674ECD2ABC51B4D1ABF3AE77E09 /* ssp_ios_sdk_public.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ssp_ios_sdk_public.framework; path = "ssp-ios-sdk-public.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0AF5CE04C57421813E3D8080CC3DFCC /* Samples */ = {isa = PBXFileReference; includeInIndex = 1; name = Samples; path = sspadsdk/Samples; sourceTree = "<group>"; };
 		F199D42AE3B25C06D9BEBB595138E0BD /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-example.release.xcconfig"; sourceTree = "<group>"; };
-		F5D3AD05B7482F459E2E3961045B173C /* ssp-ios-sdk-public.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ssp-ios-sdk-public.modulemap"; sourceTree = "<group>"; };
 		FE738AB7B951E639221DD37AAF252244 /* Pods_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_example.framework; path = "Pods-example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,12 +76,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23952A8B4E0AE07170831F4A7F11E280 /* Development Pods */ = {
+		055ADB4249C08EE0743AC46F3D943CCB /* ssp-ios-sdk-public */ = {
 			isa = PBXGroup;
 			children = (
-				32B2909FF964A1C82DA2263BC4CC3A83 /* ssp-ios-sdk-public */,
+				029801B925A3B5E00DA3F81A7744088D /* sspadsdk.h */,
+				0C37ABB28D93ACCEA93A6BBEA4F6314E /* SSPAdSDK.swift */,
+				18421D9D7DB9A7E885297D1992068451 /* Frameworks */,
+				A2F44ED5C64E8158D66ACCC3BB5A94E1 /* Resources */,
+				9248E76A10FE2BA1492D2A5C19ADCEC0 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = "ssp-ios-sdk-public";
+			path = "ssp-ios-sdk-public";
+			sourceTree = "<group>";
+		};
+		18421D9D7DB9A7E885297D1992068451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				625E9E932460E0BD42F0C4BEE7091223 /* sspadkit.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2BCF16978EC2F0B687CAFB8E056ED592 /* Targets Support Files */ = {
@@ -94,27 +105,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		308A72235E83EA8EEC0C1921CCCBDDE4 /* Pod */ = {
+		307BEDA0BD18BB92C44B28956D416C2B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1F9D3E4A31001F995BF1B4E45A31D44C /* README.md */,
-				2C516A89D5A696BC6C46AD6C27476CE0 /* ssp-ios-sdk-public.podspec */,
+				055ADB4249C08EE0743AC46F3D943CCB /* ssp-ios-sdk-public */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		32B2909FF964A1C82DA2263BC4CC3A83 /* ssp-ios-sdk-public */ = {
-			isa = PBXGroup;
-			children = (
-				4DEA531837FA1DC147FB5108AE4FADCD /* Samples */,
-				954A940784660800577A94D645239267 /* sspadsdk.h */,
-				0D2F557F425303C3B8C41D7CE54D3CFF /* SSPAdSDK.swift */,
-				9CB38598BA16B2DF27BBE5EEA11C3975 /* Frameworks */,
-				308A72235E83EA8EEC0C1921CCCBDDE4 /* Pod */,
-				769B23827E9E08DC9F8B4E96FE7152C2 /* Support Files */,
-			);
-			name = "ssp-ios-sdk-public";
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		4D3DB83906B6DF2A7656C4149D17C466 /* Products */ = {
@@ -151,36 +147,36 @@
 			path = "Target Support Files/Pods-example";
 			sourceTree = "<group>";
 		};
-		769B23827E9E08DC9F8B4E96FE7152C2 /* Support Files */ = {
+		9248E76A10FE2BA1492D2A5C19ADCEC0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F5D3AD05B7482F459E2E3961045B173C /* ssp-ios-sdk-public.modulemap */,
-				5A07CDD52701A05AFA9B6DFFE0C523D5 /* ssp-ios-sdk-public-dummy.m */,
-				BE06A006F8583754D145E4A0A57B4F27 /* ssp-ios-sdk-public-Info.plist */,
-				89D014E4AC1E7D897BCFA48203ED3953 /* ssp-ios-sdk-public-prefix.pch */,
-				3B3CA9EDFB768183793BC6E88485A166 /* ssp-ios-sdk-public-umbrella.h */,
-				35BE8606C65353D062741854ABF52D11 /* ssp-ios-sdk-public-xcframeworks.sh */,
-				C6EEF0547865D708FBF6D06AF02018EF /* ssp-ios-sdk-public.debug.xcconfig */,
-				BED9C740A810B04B4F794E9CEB6041A5 /* ssp-ios-sdk-public.release.xcconfig */,
+				825CA72473F3C9542F18106EF2134464 /* ssp-ios-sdk-public.modulemap */,
+				42B53DDF14BB00430533E23D493924FE /* ssp-ios-sdk-public-dummy.m */,
+				25590047CA60366A0EF9D9CC7EA8E35E /* ssp-ios-sdk-public-Info.plist */,
+				46424B78663C71A6E2FA03666F1BDB11 /* ssp-ios-sdk-public-prefix.pch */,
+				B103CD7BB5B7DBE113D90CAFCCB06D0E /* ssp-ios-sdk-public-umbrella.h */,
+				0389B55DF2F90F573BA5C998624428EE /* ssp-ios-sdk-public-xcframeworks.sh */,
+				4D99A98A39A35302D33E6C91B4744F08 /* ssp-ios-sdk-public.debug.xcconfig */,
+				5B41E8EE01056B9E66EE8091216CD0F9 /* ssp-ios-sdk-public.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "example/Pods/Target Support Files/ssp-ios-sdk-public";
+			path = "../Target Support Files/ssp-ios-sdk-public";
 			sourceTree = "<group>";
 		};
-		9CB38598BA16B2DF27BBE5EEA11C3975 /* Frameworks */ = {
+		A2F44ED5C64E8158D66ACCC3BB5A94E1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9E3A4D2172E242EA4F7CB88D7FA7E524 /* sspadkit.xcframework */,
+				E0AF5CE04C57421813E3D8080CC3DFCC /* Samples */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				23952A8B4E0AE07170831F4A7F11E280 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				307BEDA0BD18BB92C44B28956D416C2B /* Pods */,
 				4D3DB83906B6DF2A7656C4149D17C466 /* Products */,
 				2BCF16978EC2F0B687CAFB8E056ED592 /* Targets Support Files */,
 			);
@@ -229,7 +225,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8FA3FD35DADF74B2B204D94765091B7F /* PBXTargetDependency */,
+				9595F1F8DE115540C9EF1DA60BAFB83D /* PBXTargetDependency */,
 			);
 			name = "Pods-example";
 			productName = "Pods-example";
@@ -342,11 +338,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8FA3FD35DADF74B2B204D94765091B7F /* PBXTargetDependency */ = {
+		9595F1F8DE115540C9EF1DA60BAFB83D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ssp-ios-sdk-public";
 			target = F36870760267F11C4B6D38285AA3A7AC /* ssp-ios-sdk-public */;
-			targetProxy = C8326E6721C8D8351FAC2E2DF4CF57D4 /* PBXContainerItemProxy */;
+			targetProxy = 312EDA0FEE7C25453CA0940189069B32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -519,7 +515,7 @@
 		};
 		D8ECFC4BD73E01772111ACA48D1F3E38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BED9C740A810B04B4F794E9CEB6041A5 /* ssp-ios-sdk-public.release.xcconfig */;
+			baseConfigurationReference = 5B41E8EE01056B9E66EE8091216CD0F9 /* ssp-ios-sdk-public.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,7 +588,7 @@
 		};
 		DE34B1927556F86D8F1A07BF19E50249 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6EEF0547865D708FBF6D06AF02018EF /* ssp-ios-sdk-public.debug.xcconfig */;
+			baseConfigurationReference = 4D99A98A39A35302D33E6C91B4744F08 /* ssp-ios-sdk-public.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
