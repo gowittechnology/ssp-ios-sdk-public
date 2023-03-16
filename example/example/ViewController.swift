@@ -20,7 +20,7 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let config = SSPAdKitConfig(_inventoryID: "XXXXXXXXX", _adUnitID: "XXXXXXXXX")
+        let config = SSPAdKitConfig(_inventoryID: "2449", _adUnitID: "1538")
         adManager = SSPAdKit.init(_config: config)
         adManager?.bannerDelegate = self
         adManager?.popUpDelegate = self
@@ -28,6 +28,7 @@ class ViewController: UIViewController, BannerAdDelegate, PopUpAdDelegate {
 
     @IBAction func showBanner(_ sender: Any) {
         if let manager = adManager {
+//            let result = manager.requestBanner(for: "1538", _size: CGSize(width: 320, height: 50), _identifier: 23)
             let result = manager.requestBanner(for: SSPBannerSizes.banner, _identifier: 0)
             print(result.enumDetails)
         }
