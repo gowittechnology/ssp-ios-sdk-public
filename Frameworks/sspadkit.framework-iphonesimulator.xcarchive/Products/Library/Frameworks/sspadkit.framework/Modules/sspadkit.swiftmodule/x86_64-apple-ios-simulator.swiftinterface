@@ -1,0 +1,161 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name sspadkit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import AppTrackingTransparency
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@_exported import sspadkit
+@_hasMissingDesignatedInitializers public class NetworkService {
+  @objc deinit
+}
+public class SSPAdKitConfig {
+  public var yearOfBirth: Swift.Int?
+  public var gender: sspadkit.GenderTypes
+  public var latitude: Swift.String?
+  public var longtitude: Swift.String?
+  public var customdata: [Swift.String : Swift.String]
+  public var applicationVersion: Swift.String
+  public var language: Swift.String
+  public var customPageURL: Swift.String?
+  public var referrer: Swift.String?
+  public var adUnitSize: sspadkit.SSPAdContainerSize?
+  public var shouldAskForIDFA: Swift.Bool
+  public var addTimeOutInterval: Swift.Int?
+  public var pageURL: Swift.String
+  public var domain: Swift.String
+  public var secure: Swift.String
+  public var inventoryID: Swift.String
+  public var interstitial: Swift.Int
+  public init(_inventoryID: Swift.String)
+  public func isInventoryIDValid(_inventoryID: Swift.String) -> Swift.Bool
+  public func isAdUnitIDValid(_adUnitID: Swift.String) -> Swift.Bool
+  public func getBannerParams() -> Swift.String
+  public func getPopUpParams() -> Swift.String
+  public var token: Swift.String {
+    get
+  }
+  public var deviceID: Swift.String {
+    get
+  }
+  public var session: Swift.String {
+    get
+  }
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class SSPBannerAd : ObjectiveC.NSObject, WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
+  public var addId: Swift.Int?
+  final public let addresponse: sspadkit.AddResponse
+  public func show(in view: UIKit.UIView)
+  @objc public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @objc deinit
+}
+public class SSPBannerAdRequest {
+  public init(_inventoryID: Swift.String, _adUnitID: Swift.String, _config: sspadkit.SSPAdKitConfig, _addSize: sspadkit.SSPAdContainerSize, _delegate: any sspadkit.BannerAdDelegate, _identifier: Swift.Int? = nil)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class SSPPopUpAd : ObjectiveC.NSObject, WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
+  public var addId: Swift.Int?
+  final public let addresponse: sspadkit.AddResponse
+  public func show(in view: UIKit.UIView)
+  @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc public func closePopUpAction()
+  @objc deinit
+}
+public class SSPPopUpAdRequest {
+  public init(_inventoryID: Swift.String, _adUnitID: Swift.String, _config: sspadkit.SSPAdKitConfig, _addSize: sspadkit.SSPAdContainerSize, _delegate: any sspadkit.PopUpAdDelegate, _identifier: Swift.Int? = nil)
+  @objc deinit
+}
+public struct AddResponse {
+}
+@_hasMissingDesignatedInitializers public class NetworkHelper {
+  public var timeOutInterval: Swift.Int
+  @objc deinit
+}
+public enum SSPRequestResponse : Swift.Int {
+  case succes
+  case delegateNotImplemented
+  case sizeNotAvailableForDevice
+  case inventoryIDNotValid
+  case addUnitIDNotValid
+  public var enumDetails: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum SSPResult : Swift.Int {
+  case succes = 0
+  case networkErrorJson
+  case networkRequestFailed
+  case networkResponseIsEmpty
+  case didntReceiveAnyAdds
+  case addViewConstructorError
+  case addContainerSizeIsNotCorrect
+  public var enumDetails: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum GenderTypes : Swift.String {
+  case unknown
+  case male
+  case female
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public protocol BannerAdDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func addReceived(forBanner adItem: sspadkit.SSPBannerAd)
+  @objc func failedToLoadAdd(forBanner adItem: sspadkit.SSPBannerAd, reason: sspadkit.SSPResult)
+  @objc optional func addWillAppear(forBanner adItem: sspadkit.SSPBannerAd)
+}
+@objc public protocol PopUpAdDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func addReceived(forPopUp adItem: sspadkit.SSPPopUpAd)
+  @objc func failedToLoadAdd(forPopUp adItem: sspadkit.SSPPopUpAd, reason: sspadkit.SSPResult)
+  @objc func closePopUp(forPopUp adItem: sspadkit.SSPPopUpAd)
+  @objc optional func addWillAppear(forPopUp adItem: sspadkit.SSPPopUpAd)
+}
+public class SSPAdKit {
+  public var config: sspadkit.SSPAdKitConfig
+  public var bannerDelegate: (any sspadkit.BannerAdDelegate)?
+  public var popUpDelegate: (any sspadkit.PopUpAdDelegate)?
+  public init(_config: sspadkit.SSPAdKitConfig)
+  public func requestBanner(for _adUnitID: Swift.String, _size: CoreFoundation.CGSize, _identifier: Swift.Int? = nil) -> sspadkit.SSPRequestResponse
+  public func requestPopup(for _adUnitID: Swift.String, _size: CoreFoundation.CGSize) -> sspadkit.SSPRequestResponse
+  @objc deinit
+}
+public class SSPAdContainerSize {
+  public var isForBanner: Swift.Bool?
+  public var popUpSize: CoreFoundation.CGSize?
+  public var bannerSize: CoreFoundation.CGSize?
+  public var adUnitWidth: Swift.Int
+  public var adUnitHeight: Swift.Int
+  public init(_popUpSize: CoreFoundation.CGSize)
+  public init(_bannerSize: CoreFoundation.CGSize)
+  @objc deinit
+}
+extension sspadkit.SSPRequestResponse : Swift.Equatable {}
+extension sspadkit.SSPRequestResponse : Swift.Hashable {}
+extension sspadkit.SSPRequestResponse : Swift.RawRepresentable {}
+extension sspadkit.SSPResult : Swift.Equatable {}
+extension sspadkit.SSPResult : Swift.Hashable {}
+extension sspadkit.SSPResult : Swift.RawRepresentable {}
+extension sspadkit.GenderTypes : Swift.Equatable {}
+extension sspadkit.GenderTypes : Swift.Hashable {}
+extension sspadkit.GenderTypes : Swift.RawRepresentable {}
