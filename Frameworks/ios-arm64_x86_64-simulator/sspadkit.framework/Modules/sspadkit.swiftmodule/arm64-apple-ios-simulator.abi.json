@@ -3983,39 +3983,6 @@
             "moduleName": "sspadkit"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "sspadkit.GenderTypes?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenderTypes",
-                    "printedName": "sspadkit.GenderTypes",
-                    "usr": "s:8sspadkit11GenderTypesO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8sspadkit11GenderTypesO8rawValueACSgSS_tcfc",
-            "mangledName": "$s8sspadkit11GenderTypesO8rawValueACSgSS_tcfc",
-            "moduleName": "sspadkit",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -4053,6 +4020,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "sspadkit.GenderTypes?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenderTypes",
+                    "printedName": "sspadkit.GenderTypes",
+                    "usr": "s:8sspadkit11GenderTypesO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8sspadkit11GenderTypesO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8sspadkit11GenderTypesO8rawValueACSgSS_tcfc",
+            "moduleName": "sspadkit",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -5413,536 +5413,2041 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 212,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 955,
+      "length": 20,
+      "value": "\"response received.\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 20,
+      "value": "\"response: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1137,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1236,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1242,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1532,
+      "length": 25,
+      "value": "\"response data is empty.\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 1770,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 2140,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 2180,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 2275,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 2589,
+      "length": 22,
+      "value": "\"add request started.\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 2737,
+      "length": 20,
+      "value": "\"response received.\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 2901,
+      "length": 20,
+      "value": "\"response: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 2919,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3022,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3028,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 3318,
+      "length": 25,
+      "value": "\"response data is empty.\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 13,
+      "value": "\"yearOfBirth\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 8,
+      "value": "\"gender\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 10,
+      "value": "\"latitude\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 11,
+      "value": "\"longitude\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 6,
+      "value": "\"idfa\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 830,
+      "length": 15,
+      "value": "\"customPageUrl\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 902,
+      "length": 10,
+      "value": "\"referrer\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1054,
+      "length": 9,
+      "value": "\"pageUrl\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 8,
+      "value": "\"domain\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1187,
+      "length": 14,
+      "value": "\"manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1252,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 11,
+      "value": "\"osVersion\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1450,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1579,
+      "length": 12,
+      "value": "\"appVersion\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1648,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1716,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1787,
+      "length": 13,
+      "value": "\"screenWidth\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1861,
+      "length": 14,
+      "value": "\"screenHeight\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1934,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2006,
+      "length": 13,
+      "value": "\"inventoryId\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2076,
+      "length": 10,
+      "value": "\"adUnitId\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2146,
+      "length": 13,
+      "value": "\"adUnitWidth\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2220,
+      "length": 14,
+      "value": "\"adUnitHeight\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2290,
+      "length": 9,
+      "value": "\"session\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2360,
+      "length": 14,
+      "value": "\"interstitial\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2428,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2490,
+      "length": 8,
+      "value": "\"secure\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2561,
+      "length": 16,
+      "value": "\"connectionType\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 2675,
       "length": 17,
       "value": "\"AdplusMobileSDK\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 2733,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 2773,
       "length": 7,
       "value": "\"Apple\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 2812,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 2843,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 2884,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 2924,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 2964,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3050,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 3082,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 3117,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3152,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 3188,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3263,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3327,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3361,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3263,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3327,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3361,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3263,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3327,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3361,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3746,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "Array",
+      "offset": 3947,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4121,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4264,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4468,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4698,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4746,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4796,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5158,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5235,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5258,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5357,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5375,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5475,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5495,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5592,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5613,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5722,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5738,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5824,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5851,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5869,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5985,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6010,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6116,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6136,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6196,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6215,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6247,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6265,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6296,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6320,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6372,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6386,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6428,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6449,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6498,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6520,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6526,
+      "length": 7,
+      "value": "\"phone\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6552,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6569,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6614,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6632,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6680,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6702,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6745,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6765,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6798,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6819,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6876,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6899,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6958,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6982,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7042,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7066,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7116,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7134,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7165,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7191,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7253,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7275,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8053,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8623,
+      "length": 21,
+      "value": "\"navigator.userAgent\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8980,
+      "length": 30,
+      "value": "\"failed to get the user agent\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9526,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9632,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9735,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9838,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10013,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10063,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10459,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10608,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdKitConfig+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
       "kind": "Dictionary",
       "offset": 684,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
       "kind": "StringLiteral",
       "offset": 733,
       "length": 5,
       "value": "\"0.0\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 7,
       "value": "\"en-US\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 995,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
       "kind": "StringLiteral",
       "offset": 1067,
       "length": 20,
       "value": "\"ssp.ad-plus.com.tr\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 20,
       "value": "\"ssp.ad-plus.com.tr\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
       "kind": "StringLiteral",
       "offset": 1157,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1232,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPBannerAd.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1463,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1476,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1498,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1601,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1614,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1636,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1727,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1845,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2186,
+      "length": 18,
+      "value": "\"SSPAdkitDeviceID\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2428,
+      "length": 18,
+      "value": "\"SSPAdkitDeviceID\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 14,
+      "value": "\"inventoryId=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 12,
+      "value": "\"&adUnitId=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 15,
+      "value": "\"&adUnitWidth=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 16,
+      "value": "\"&adUnitHeight=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 9,
+      "value": "\"&token=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 11,
+      "value": "\"&session=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 34,
+      "value": "\"Banner request params: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 686,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPBannerAdRequest+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 812,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPBannerAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 1237,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPBannerAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 1245,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPBannerAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2372,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPBannerAd.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 11,
       "value": "\"sspadkit.SSPBannerAd\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2005,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 2229,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 2237,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 2715,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 2784,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2811,
+      "length": 45,
+      "value": "\"aligment coordinate: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2843,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4194,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4223,
+      "length": 68,
+      "value": "\"ad response: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4262,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4290,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4413,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4566,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4573,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4584,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4596,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4656,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4713,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4899,
+      "length": 3,
+      "value": "\"X\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5057,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5671,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPPopUpAd.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 10,
       "value": "\"sspadkit.SSPPopUpAd\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 36,
+      "value": "\"Error desc: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 36,
+      "value": "\"Error desc: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 968,
+      "length": 4,
+      "value": "\"ad\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1068,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1201,
+      "length": 36,
+      "value": "\"Error desc: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1233,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1236,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 1380,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
       "kind": "StringLiteral",
       "offset": 1417,
       "length": 35,
       "value": "\"https:\/\/id.ad-plus.com.tr\/?token=\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
       "kind": "StringLiteral",
       "offset": 1486,
       "length": 46,
       "value": "\"https:\/\/ssp.ad-plus.com.tr\/server\/displayAd?\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
       "kind": "StringLiteral",
       "offset": 1560,
       "length": 46,
       "value": "\"https:\/\/ssp.ad-plus.com.tr\/server\/displayAd?\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1711,
+      "length": 13,
+      "value": "\"&device_id=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2122,
+      "length": 15,
+      "value": "\"Network Error\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2183,
+      "length": 23,
+      "value": "\"Error Details: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2205,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2980,
+      "length": 15,
+      "value": "\"Network Error\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3041,
+      "length": 23,
+      "value": "\"Error Details: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3063,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3990,
+      "length": 15,
+      "value": "\"Network Error\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4051,
+      "length": 23,
+      "value": "\"Error Details: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/NetworkHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4073,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 185,
       "length": 22,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 25,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 19,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 17,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 30,
+      "value": "\"Succes: Add request created \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 48,
+      "value": "\"Failed: Please set delegation parameters first\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 61,
+      "value": "\"Failed: Selected Add size is not available for this device.\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 40,
+      "value": "\"Failed: Please check your inventory ID\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 39,
+      "value": "\"Failed: Please check your add unit ID\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 185,
       "length": 22,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 25,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 19,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 17,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 185,
       "length": 22,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 25,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 19,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 17,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 864,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 875,
       "length": 16,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 901,
       "length": 20,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 931,
       "length": 22,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 963,
       "length": 19,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 992,
       "length": 23,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1025,
       "length": 28,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1147,
+      "length": 30,
+      "value": "\"Succes: Add request created \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1217,
+      "length": 31,
+      "value": "\"Couldn't parse response JSON \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1292,
+      "length": 59,
+      "value": "\"Network request failed please check logs for more details\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 59,
+      "value": "\"Network request failed please check logs for more details\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1499,
+      "length": 36,
+      "value": "\"Didn't receive any add from server\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
+      "length": 39,
+      "value": "\"Couldn't create webview to show adds.\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1673,
+      "length": 64,
+      "value": "\"Add container view size is not suitable for selected add size.\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 864,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 875,
       "length": 16,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 901,
       "length": 20,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 931,
       "length": 22,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 963,
       "length": 19,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 992,
       "length": 23,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "IntegerLiteral",
       "offset": 1025,
       "length": 28,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "StringLiteral",
       "offset": 1812,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "StringLiteral",
       "offset": 1831,
       "length": 3,
       "value": "\"M\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "StringLiteral",
       "offset": 1853,
       "length": 3,
       "value": "\"F\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "StringLiteral",
       "offset": 1812,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "StringLiteral",
       "offset": 1831,
       "length": 3,
       "value": "\"M\""
     },
     {
-      "filePath": "\/Users\/tcbilkose\/Development\/AdPlatform\/Mobil\/ssp-ios-sdk\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKitEnums.swift",
       "kind": "StringLiteral",
       "offset": 1853,
       "length": 3,
       "value": "\"F\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 14,
+      "value": "\"inventoryId=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 12,
+      "value": "\"&adUnitId=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
+      "length": 15,
+      "value": "\"&adUnitWidth=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 16,
+      "value": "\"&adUnitHeight=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 9,
+      "value": "\"&token=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 11,
+      "value": "\"&session=\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 33,
+      "value": "\"PopUp request params: \""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 804,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPPopUpAdRequest+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 809,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1209,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Public\/SSPAdKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1214,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdContainerSize.swift",
+      "kind": "BooleanLiteral",
+      "offset": 449,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcbilkose\/Desktop\/ssp-ios-sdk-main\/SDK\/sspadkit\/sspadkit\/Private\/SSPAdContainerSize.swift",
+      "kind": "BooleanLiteral",
+      "offset": 670,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

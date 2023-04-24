@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name sspadkit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -57,7 +57,7 @@ public class SSPAdKitConfig {
   @objc deinit
 }
 public class SSPBannerAdRequest {
-  public init(_inventoryID: Swift.String, _adUnitID: Swift.String, _config: sspadkit.SSPAdKitConfig, _addSize: sspadkit.SSPAdContainerSize, _delegate: sspadkit.BannerAdDelegate, _identifier: Swift.Int? = nil)
+  public init(_inventoryID: Swift.String, _adUnitID: Swift.String, _config: sspadkit.SSPAdKitConfig, _addSize: sspadkit.SSPAdContainerSize, _delegate: any sspadkit.BannerAdDelegate, _identifier: Swift.Int? = nil)
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class SSPPopUpAd : ObjectiveC.NSObject, WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
@@ -69,7 +69,7 @@ public class SSPBannerAdRequest {
   @objc deinit
 }
 public class SSPPopUpAdRequest {
-  public init(_inventoryID: Swift.String, _adUnitID: Swift.String, _config: sspadkit.SSPAdKitConfig, _addSize: sspadkit.SSPAdContainerSize, _delegate: sspadkit.PopUpAdDelegate, _identifier: Swift.Int? = nil)
+  public init(_inventoryID: Swift.String, _adUnitID: Swift.String, _config: sspadkit.SSPAdKitConfig, _addSize: sspadkit.SSPAdContainerSize, _delegate: any sspadkit.PopUpAdDelegate, _identifier: Swift.Int? = nil)
   @objc deinit
 }
 public struct AddResponse {
@@ -133,8 +133,8 @@ public enum GenderTypes : Swift.String {
 }
 public class SSPAdKit {
   public var config: sspadkit.SSPAdKitConfig
-  public var bannerDelegate: sspadkit.BannerAdDelegate?
-  public var popUpDelegate: sspadkit.PopUpAdDelegate?
+  public var bannerDelegate: (any sspadkit.BannerAdDelegate)?
+  public var popUpDelegate: (any sspadkit.PopUpAdDelegate)?
   public init(_config: sspadkit.SSPAdKitConfig)
   public func requestBanner(for _adUnitID: Swift.String, _size: CoreFoundation.CGSize, _identifier: Swift.Int? = nil) -> sspadkit.SSPRequestResponse
   public func requestPopup(for _adUnitID: Swift.String, _size: CoreFoundation.CGSize) -> sspadkit.SSPRequestResponse
